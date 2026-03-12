@@ -2,6 +2,7 @@
 #include <cstdint>
 
 // version-b130242ed064436f
+// dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
     inline constexpr const char* roblox_version = "version-b130242ed064436f";
@@ -36,7 +37,7 @@ namespace offsets {
         inline constexpr uintptr_t ModelInstance = 0x398;
         inline constexpr uintptr_t UserId = 0x2c8;
         inline constexpr uintptr_t DisplayName = 0x130;
-        inline constexpr uintptr_t TeamColor = 0x360;
+        inline constexpr uintptr_t TeamColor = 0x15c;
         inline constexpr uintptr_t Team = 0x2a0;
     }
 
@@ -63,6 +64,7 @@ namespace offsets {
     }
 
     namespace Humanoid {
+        inline constexpr uintptr_t CameraOffset = 0x140;
         inline constexpr uintptr_t UseJumpPower = 0x1e3;
         inline constexpr uintptr_t AutoJumpEnabled = 0x1d8;
         inline constexpr uintptr_t Health = 0x194;
@@ -79,7 +81,7 @@ namespace offsets {
         inline constexpr uintptr_t AutoRotate = 0x1d9;
         inline constexpr uintptr_t Sit = 0x1e1;
         inline constexpr uintptr_t BreakJointsOnDeath = 0x1db;
-        inline constexpr uintptr_t RequiresNeck = 0x1e0;
+        inline constexpr uintptr_t RequiresNeck = 0xfc;
         inline constexpr uintptr_t EvaluateStateMachine = 0x1dc;
         inline constexpr uintptr_t RigType = 0x1c8;
         inline constexpr uintptr_t TargetPoint = 0x164;
@@ -91,6 +93,7 @@ namespace offsets {
         inline constexpr uintptr_t Ambient = 0xd8;
         inline constexpr uintptr_t EnvironmentDiffuseScale = 0x124;
         inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
+        inline constexpr uintptr_t OutdoorAmbient = 0x108;
     }
 
     namespace LightingParameters {
@@ -263,7 +266,7 @@ namespace offsets {
     }
 
     namespace LocalScript {
-        inline constexpr uintptr_t Bytecode = 0x1a8;
+        inline constexpr uintptr_t Bytecode = 0xb0;
     }
 
     namespace Bytecode {
