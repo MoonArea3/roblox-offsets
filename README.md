@@ -44,6 +44,9 @@ Added More Camera Offsets
 - DiagonalFieldOfView
 - MaxAxisFieldOfView
 
+Added New Humanoid Offset
+- CameraOffset
+
 ps: should i open roblox studio and learn to dump more offsets?
 
 ## Misc:
