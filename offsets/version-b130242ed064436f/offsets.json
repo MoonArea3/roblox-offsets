@@ -73,7 +73,15 @@
     },
     "Lighting": {
         "ClockTime": 440,
-        "Brightness": 288
+        "Brightness": 288,
+        "Ambient": 216,
+        "EnvironmentDiffuseScale": 292,
+        "EnvironmentSpecularScale": 296
+    },
+    "LightingParameters": {
+        "GeographicLatitude": 400,
+        "LightColor": 356,
+        "LightDirection": 376
     },
     "World": {
         "FallenPartsDestroyHeight": 456,
@@ -108,7 +116,18 @@
         "WaterWaveSpeed": 524,
         "GrassLength": 504
     },
+    "FFlag": {
+        "PhysicsSenderMaxBandwidthBps": 114712044,
+        "TaskSchedulerTargetFps": 128791176,
+        "DebugDisableTimeoutDisconnect": 129433432,
+        "WebSocketServiceEnableClientCreation": 129611784,
+        "EnableLoadModule": 129309432,
+        "DebugSkyGray": 129059792,
+        "PartyPlayerInactivityTimeoutInSeconds": 114710840
+    },
     "Camera": {
+        "DiagonalFieldOfView": 348,
+        "MaxAxisFieldOfView": 364,
         "FieldOfView": 352,
         "Position": 284,
         "CFrame": 248,
