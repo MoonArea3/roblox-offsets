@@ -44,7 +44,7 @@ Added More Camera Offsets
 - DiagonalFieldOfView
 - MaxAxisFieldOfView
 
-ps: should i open roblox studio and learn to dump more offsets
+ps: should i open roblox studio and learn to dump more offsets?
 
 ## Misc:
 discord user: moonarea3 (discord.gg/skids)
