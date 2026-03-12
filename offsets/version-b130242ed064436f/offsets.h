@@ -2,6 +2,7 @@
 #include <cstdint>
 
 // version-b130242ed064436f
+
 namespace offsets {
     inline constexpr const char* roblox_version = "version-b130242ed064436f";
 
@@ -87,6 +88,15 @@ namespace offsets {
     namespace Lighting {
         inline constexpr uintptr_t ClockTime = 0x1b8;
         inline constexpr uintptr_t Brightness = 0x120;
+        inline constexpr uintptr_t Ambient = 0xd8;
+        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x124;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
+    }
+
+    namespace LightingParameters {
+        inline constexpr uintptr_t GeographicLatitude = 0x190;
+        inline constexpr uintptr_t LightColor = 0x164;
+        inline constexpr uintptr_t LightDirection = 0x178;
     }
 
     namespace World {
@@ -127,7 +137,19 @@ namespace offsets {
         inline constexpr uintptr_t GrassLength = 0x1f8;
     }
 
+    namespace FFlag {
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6d65dec;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7ad3288;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7b6ff58;
+        inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x7b9b808;
+        inline constexpr uintptr_t EnableLoadModule = 0x7b51af8;
+        inline constexpr uintptr_t DebugSkyGray = 0x7b14bd0;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6d65938;
+    }
+
     namespace Camera {
+        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
+        inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
         inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t Position = 0x11c;
         inline constexpr uintptr_t CFrame = 0xf8;
