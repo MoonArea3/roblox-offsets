@@ -18,5 +18,33 @@ print(offsets) # print to ensure they work
 I will also post offset tutorials so people can learn how to use these offsets for good. I hope this helps people on their external!
 
 If there are any problems or you want a version posted, please make a issue on this repo!
+
+## New Features (v1.1!)
+
+Added FFlag Offsets
+- PhysicsSenderMaxBandwidthBps
+- TaskSchedulerTargetFps
+- DebugDisableTimeoutDisconnect
+- WebSocketServiceEnableClientCreation
+- EnableLoadModule
+- DebugSkyGray
+- PartyPlayerInactivityTimeoutInSeconds 
+
+Added More Lighting Offsets:
+- Ambient
+- EnvironmentDiffuseScale
+- EnvironmentSpecularScale
+
+Added Lighting Params:
+ - GeographicLatitude
+ - LightColor
+ - LightDirection
+
+Added More Camera Offsets
+- DiagonalFieldOfView
+- MaxAxisFieldOfView
+
+ps: should i open roblox studio and learn to dump more offsets
+
 ## Misc:
 discord user: moonarea3 (discord.gg/skids)
