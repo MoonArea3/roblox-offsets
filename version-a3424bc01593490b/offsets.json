@@ -1,0 +1,214 @@
+{
+    "VisualEngine": {
+        "ViewMatrix": 320,
+        "RenderView": 2896,
+        "Pointer": 129101928
+    },
+    "DataModel": {
+        "PlaceId": 408,
+        "GameId": 400,
+        "GameLoaded": 1536,
+        "CreatorId": 392,
+        "Workspace": 376,
+        "ServerIP": 1512,
+        "JobId": 312
+    },
+    "Instance": {
+        "Parent": 104,
+        "ClassDescriptor": 24,
+        "ChildrenStart": 112,
+        "ChildrenEnd": 8,
+        "Name": 176,
+        "ClassName": 8
+    },
+    "Player": {
+        "LocalPlayer": 304,
+        "ModelInstance": 896,
+        "UserId": 696,
+        "DisplayName": 304,
+        "TeamColor": 848,
+        "Team": 656
+    },
+    "BasePart": {
+        "Primitive": 328,
+        "Reflectance": 236,
+        "Color3": 404,
+        "Transparency": 240,
+        "CastShadow": 245,
+        "Locked": 246,
+        "Massless": 247
+    },
+    "Primitive": {
+        "Position": 228,
+        "CFrame": 192,
+        "Size": 432,
+        "AssemblyLinearVelocity": 240,
+        "AssemblyAngularVelocity": 252,
+        "Material": 582,
+        "Shape": 433,
+        "PrimitiveFlags": 430,
+        "Owner": 528
+    },
+    "Humanoid": {
+        "UseJumpPower": 483,
+        "AutoJumpEnabled": 472,
+        "Health": 404,
+        "MaxHealth": 436,
+        "WalkSpeed": 468,
+        "WalkSpeedCheck": 952,
+        "JumpPower": 432,
+        "JumpHeight": 428,
+        "HipHeight": 416,
+        "HealthDisplayDistance": 408,
+        "MaxSlopeAngle": 440,
+        "NameDisplayDistance": 444,
+        "WalkToPoint": 380,
+        "AutoRotate": 473,
+        "Sit": 481,
+        "BreakJointsOnDeath": 475,
+        "RequiresNeck": 480,
+        "EvaluateStateMachine": 476,
+        "RigType": 456,
+        "TargetPoint": 356
+    },
+    "Lighting": {
+        "ClockTime": 440,
+        "Brightness": 288
+    },
+    "World": {
+        "FallenPartsDestroyHeight": 456,
+        "Gravity": 464,
+        "WorldStepPerSec": 1632,
+        "Primitives": 576
+    },
+    "Workspace": {
+        "World": 984,
+        "ReadOnlyGravity": 2424,
+        "CurrentCamera": 1120
+    },
+    "VectorForce": {
+        "ApplyAtCenterOfMass": 408,
+        "Force": 392,
+        "RelativeTo": 404
+    },
+    "DragDetector": {
+        "Enabled": 745,
+        "RunLocally": 747,
+        "MaxDragTranslation": 644,
+        "MinDragTranslation": 656,
+        "MaxForce": 708,
+        "Responsiveness": 728,
+        "DragStyle": 692
+    },
+    "Terrain": {
+        "WaterColor": 488,
+        "WaterReflectance": 512,
+        "WaterTransparency": 516,
+        "WaterWaveSize": 520,
+        "WaterWaveSpeed": 524,
+        "GrassLength": 504
+    },
+    "Camera": {
+        "FieldOfView": 352,
+        "Position": 284,
+        "CFrame": 248,
+        "ViewportInt16": 684,
+        "ViewportSize": 744,
+        "CameraSubject": 232,
+        "CameraType": 344
+    },
+    "Script": {
+        "RequireBypass": 2276
+    },
+    "Model": {
+        "PrimaryPart": 632,
+        "Scale": 356
+    },
+    "Tool": {
+        "CanBeDropped": 1184,
+        "Enabled": 1185,
+        "ManualActivationOnly": 1186,
+        "RequiresHandle": 1187,
+        "Tooltip": 1104,
+        "Grip": 1136,
+        "GripRight": 1136,
+        "GripUp": 1148,
+        "GripForward": 1160,
+        "GripPos": 1172
+    },
+    "ProximityPrompt": {
+        "ActionText": 208,
+        "ObjectText": 240,
+        "HoldDuration": 320,
+        "MaxActivationDistance": 328,
+        "KeyboardKeyCode": 324,
+        "Enabled": 342,
+        "RequiresLineOfSight": 343
+    },
+    "ClickDetector": {
+        "MaxActivationDistance": 256
+    },
+    "Misc": {
+        "Value": 208
+    },
+    "PrimitiveFlags": {
+        "Anchored": 2,
+        "CanCollide": 8,
+        "CanTouch": 16,
+        "CanQuery": 32
+    },
+    "FakeDataModel": {
+        "Pointer": 133612072,
+        "RealDataModel": 448
+    },
+    "GuiObject": {
+        "Visible": 1445,
+        "ZIndex": 1436,
+        "BackgroundColor3": 1336,
+        "BackgroundTransparency": 1372,
+        "BorderSizePixel": 1380
+    },
+    "TextLabel": {
+        "Text": 2712,
+        "TextColor3": 3752,
+        "TextSize": 3796,
+        "TextTransparency": 3804
+    },
+    "StatsItem": {
+        "Value": 208
+    },
+    "Attachment": {
+        "WorldCFrame": 184,
+        "WorldAxis": 208,
+        "WorldSecondaryAxis": 232,
+        "WorldPosition": 220
+    },
+    "Sound": {
+        "SoundId": 224,
+        "Volume": 324,
+        "PlaybackSpeed": 304,
+        "Looped": 338,
+        "LoopRegion": 272,
+        "PlaybackRegion": 280
+    },
+    "BodyVelocity": {
+        "MaxForce": 520,
+        "Velocity": 532,
+        "P": 544
+    },
+    "LinearVelocity": {
+        "MaxForce": 424,
+        "VectorVelocity": 604
+    },
+    "ModuleScript": {
+        "Bytecode": 336,
+        "Hash": 352
+    },
+    "LocalScript": {
+        "Bytecode": 424
+    },
+    "Bytecode": {
+        "Size": 32,
+        "Pointer": 16
+    }
+}
