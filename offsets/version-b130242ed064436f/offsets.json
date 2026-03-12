@@ -26,7 +26,7 @@
         "ModelInstance": 920,
         "UserId": 712,
         "DisplayName": 304,
-        "TeamColor": 864,
+        "TeamColor": 348,
         "Team": 672
     },
     "BasePart": {
@@ -50,6 +50,7 @@
         "Owner": 528
     },
     "Humanoid": {
+        "CameraOffset": 320,
         "UseJumpPower": 483,
         "AutoJumpEnabled": 472,
         "Health": 404,
@@ -66,7 +67,7 @@
         "AutoRotate": 473,
         "Sit": 481,
         "BreakJointsOnDeath": 475,
-        "RequiresNeck": 480,
+        "RequiresNeck": 252,
         "EvaluateStateMachine": 476,
         "RigType": 456,
         "TargetPoint": 356
@@ -76,7 +77,8 @@
         "Brightness": 288,
         "Ambient": 216,
         "EnvironmentDiffuseScale": 292,
-        "EnvironmentSpecularScale": 296
+        "EnvironmentSpecularScale": 296,
+        "OutdoorAmbient": 264
     },
     "LightingParameters": {
         "GeographicLatitude": 400,
@@ -224,7 +226,7 @@
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 424
+        "Bytecode": 176
     },
     "Bytecode": {
         "Size": 32,
