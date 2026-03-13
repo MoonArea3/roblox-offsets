@@ -47,7 +47,7 @@ Added More Camera Offsets
 Added New Humanoid Offset
 - CameraOffset
   
-**also fixed some bugs and wrong offsets!**
+**also fixed some bugs and wrong offsets**
 ps: should i open roblox studio and learn to dump more offsets?
 
 ## Misc:
