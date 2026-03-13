@@ -2,6 +2,8 @@
 #include <cstdint>
 
 // version-b130242ed064436f
+// dumped by moon (discord.gg/skids <- pls join)
+
 namespace offsets {
     inline constexpr const char* roblox_version = "version-b130242ed064436f";
 
@@ -9,6 +11,7 @@ namespace offsets {
         inline constexpr uintptr_t ViewMatrix = 0x140;
         inline constexpr uintptr_t RenderView = 0xb50;
         inline constexpr uintptr_t Pointer = 0x7d78148;
+        inline constexpr uintptr_t FakeDataModel = 0x1c0;
     }
 
     namespace DataModel {
@@ -18,7 +21,9 @@ namespace offsets {
         inline constexpr uintptr_t CreatorId = 0x188;
         inline constexpr uintptr_t Workspace = 0x178;
         inline constexpr uintptr_t ServerIP = 0x5e8;
+        inline constexpr uintptr_t ScriptContext = 0x3f0;
         inline constexpr uintptr_t JobId = 0x138;
+        inline constexpr uintptr_t ScriptContext = 0x3f0;
     }
 
     namespace Instance {
@@ -35,8 +40,10 @@ namespace offsets {
         inline constexpr uintptr_t ModelInstance = 0x398;
         inline constexpr uintptr_t UserId = 0x2c8;
         inline constexpr uintptr_t DisplayName = 0x130;
-        inline constexpr uintptr_t TeamColor = 0x15c;
+        inline constexpr uintptr_t TeamColor = 0x360;
         inline constexpr uintptr_t Team = 0x2a0;
+        inline constexpr uintptr_t CameraMaxZoomDist = 0x320;
+        inline constexpr uintptr_t CameraMinZoomDist = 0x324;
     }
 
     namespace BasePart {
@@ -79,10 +86,12 @@ namespace offsets {
         inline constexpr uintptr_t AutoRotate = 0x1d9;
         inline constexpr uintptr_t Sit = 0x1e1;
         inline constexpr uintptr_t BreakJointsOnDeath = 0x1db;
-        inline constexpr uintptr_t RequiresNeck = 0xfc;
+        inline constexpr uintptr_t RequiresNeck = 0x1e0;
         inline constexpr uintptr_t EvaluateStateMachine = 0x1dc;
         inline constexpr uintptr_t RigType = 0x1c8;
         inline constexpr uintptr_t TargetPoint = 0x164;
+        inline constexpr uintptr_t HumanoidState = 0x8d8;
+        inline constexpr uintptr_t HumanoidStateID = 0x20;
     }
 
     namespace Lighting {
@@ -92,12 +101,14 @@ namespace offsets {
         inline constexpr uintptr_t EnvironmentDiffuseScale = 0x124;
         inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
         inline constexpr uintptr_t OutdoorAmbient = 0x108;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xe4;
+        inline constexpr uintptr_t ColorShift_Top = 0xf0;
+        inline constexpr uintptr_t ShadowSoftness = 0x140;
     }
 
     namespace LightingParameters {
         inline constexpr uintptr_t GeographicLatitude = 0x190;
-        inline constexpr uintptr_t LightColor = 0x164;
-        inline constexpr uintptr_t LightDirection = 0x178;
+        inline constexpr uintptr_t LightColor = 0x15c;
     }
 
     namespace World {
@@ -121,7 +132,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x2eb;
+        inline constexpr uintptr_t RunLocally = 0x1e9;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -149,7 +160,7 @@ namespace offsets {
     }
 
     namespace Camera {
-        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
+        inline constexpr uintptr_t DiagonalFieldOfView = 0xdb;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
         inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t Position = 0x11c;
@@ -161,7 +172,11 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0xA39;
+        inline constexpr uintptr_t RequireBypass = 0x8e4;
+    }
+
+    namespace Players {
+        inline constexpr uintptr_t RespawnTime = 0x148;
     }
 
     namespace Model {
@@ -198,6 +213,7 @@ namespace offsets {
 
     namespace Misc {
         inline constexpr uintptr_t Value = 0xd0;
+        inline constexpr uintptr_t StatsItemValue = 0xd0;
     }
 
     namespace PrimitiveFlags {
@@ -225,10 +241,6 @@ namespace offsets {
         inline constexpr uintptr_t TextColor3 = 0xed8;
         inline constexpr uintptr_t TextSize = 0xf04;
         inline constexpr uintptr_t TextTransparency = 0xf0c;
-    }
-
-    namespace StatsItem {
-        inline constexpr uintptr_t Value = 0xd0;
     }
 
     namespace Attachment {
@@ -264,7 +276,7 @@ namespace offsets {
     }
 
     namespace LocalScript {
-        inline constexpr uintptr_t Bytecode = 0xb0;
+        inline constexpr uintptr_t Bytecode = 0x1a8;
     }
 
     namespace Bytecode {
