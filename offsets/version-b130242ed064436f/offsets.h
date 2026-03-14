@@ -21,7 +21,6 @@ namespace offsets {
         inline constexpr uintptr_t ServerIP = 0x5e8;
         inline constexpr uintptr_t ScriptContext = 0x3f0;
         inline constexpr uintptr_t JobId = 0x138;
-        inline constexpr uintptr_t ScriptContext = 0x3f0;
     }
 
     namespace Instance {
