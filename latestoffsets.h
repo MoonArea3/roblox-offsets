@@ -2,8 +2,6 @@
 #include <cstdint>
 
 // version-b130242ed064436f
-// dumped by moon (discord.gg/skids <- pls join)
-
 namespace offsets {
     inline constexpr const char* roblox_version = "version-b130242ed064436f";
 
@@ -21,8 +19,8 @@ namespace offsets {
         inline constexpr uintptr_t CreatorId = 0x188;
         inline constexpr uintptr_t Workspace = 0x178;
         inline constexpr uintptr_t ServerIP = 0x5e8;
-        inline constexpr uintptr_t JobId = 0x138;
         inline constexpr uintptr_t ScriptContext = 0x3f0;
+        inline constexpr uintptr_t JobId = 0x138;
     }
 
     namespace Instance {
@@ -81,7 +79,8 @@ namespace offsets {
         inline constexpr uintptr_t HealthDisplayDistance = 0x198;
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
-        inline constexpr uintptr_t WalkToPoint = 0x17c;
+        inline constexpr uintptr_t WalkTimer = 0x410;
+        inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1d9;
         inline constexpr uintptr_t Sit = 0x1e1;
         inline constexpr uintptr_t BreakJointsOnDeath = 0x1db;
@@ -131,7 +130,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x1e9;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -159,7 +158,7 @@ namespace offsets {
     }
 
     namespace Camera {
-        inline constexpr uintptr_t DiagonalFieldOfView = 0xdb;
+        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
         inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t Position = 0x11c;
@@ -171,7 +170,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0xA39;
+        inline constexpr uintptr_t RequireBypass = 0xa39;
     }
 
     namespace Players {
