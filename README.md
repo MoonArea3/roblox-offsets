@@ -45,6 +45,8 @@ Added More Camera Offsets
 
 Added New Humanoid Offset
 - CameraOffset
+- WalkToPoint
+- WalkToPart
   
 **also fixed some bugs and wrong offsets**
 ps: should i open roblox studio and learn to dump more offsets?
