@@ -13,8 +13,8 @@
         "CreatorId": 392,
         "Workspace": 376,
         "ServerIP": 1512,
-        "JobId": 312,
-        "ScriptContext": 1008
+        "ScriptContext": 1008,
+        "JobId": 312
     },
     "Instance": {
         "Parent": 104,
@@ -68,7 +68,8 @@
         "HealthDisplayDistance": 408,
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
-        "WalkToPoint": 380,
+        "WalkTimer": 1040,
+        "WalkToPart": 304,
         "AutoRotate": 473,
         "Sit": 481,
         "BreakJointsOnDeath": 475,
@@ -112,7 +113,7 @@
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 489,
+        "RunLocally": 747,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -137,7 +138,7 @@
         "PartyPlayerInactivityTimeoutInSeconds": 114710840
     },
     "Camera": {
-        "DiagonalFieldOfView": 219,
+        "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 364,
         "FieldOfView": 352,
         "Position": 284,
