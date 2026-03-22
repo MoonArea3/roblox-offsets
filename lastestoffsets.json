@@ -1,9 +1,9 @@
 {
-    "version": "version-b130242ed064436f",
+    "version": "version-ae421f0582e54718",
     "VisualEngine": {
         "ViewMatrix": 320,
         "RenderView": 2896,
-        "Pointer": 131563848,
+        "Pointer": 131633600,
         "FakeDataModel": 448
     },
     "DataModel": {
@@ -68,6 +68,7 @@
         "HealthDisplayDistance": 408,
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
+        "WalkToPoint": 380,
         "WalkTimer": 1040,
         "WalkToPart": 304,
         "AutoRotate": 473,
@@ -129,13 +130,13 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "PhysicsSenderMaxBandwidthBps": 114712044,
-        "TaskSchedulerTargetFps": 128791176,
-        "DebugDisableTimeoutDisconnect": 129433432,
-        "WebSocketServiceEnableClientCreation": 129611784,
-        "EnableLoadModule": 129309432,
-        "DebugSkyGray": 129059792,
-        "PartyPlayerInactivityTimeoutInSeconds": 114710840
+        "PhysicsSenderMaxBandwidthBps": 114773576,
+        "TaskSchedulerTargetFps": 128857188,
+        "DebugDisableTimeoutDisconnect": 129500296,
+        "WebSocketServiceEnableClientCreation": 129681368,
+        "EnableLoadModule": 129374216,
+        "DebugSkyGray": 129125808,
+        "PartyPlayerInactivityTimeoutInSeconds": 114772272
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
@@ -193,21 +194,21 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 136064056,
+        "Pointer": 136134312,
         "RealDataModel": 448
     },
     "GuiObject": {
-        "Visible": 1445,
-        "ZIndex": 1436,
-        "BackgroundColor3": 1336,
-        "BackgroundTransparency": 1372,
-        "BorderSizePixel": 1380
+        "Visible": 1461,
+        "ZIndex": 1452,
+        "BackgroundColor3": 1352,
+        "BackgroundTransparency": 1388,
+        "BorderSizePixel": 1396
     },
     "TextLabel": {
-        "Text": 2760,
-        "TextColor3": 3800,
-        "TextSize": 3844,
-        "TextTransparency": 3852
+        "Text": 2656,
+        "TextColor3": 3696,
+        "TextSize": 3740,
+        "TextTransparency": 3748
     },
     "Attachment": {
         "WorldCFrame": 184,
