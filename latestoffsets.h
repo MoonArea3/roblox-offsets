@@ -1,14 +1,16 @@
 #pragma once
 #include <cstdint>
 
-// version-b130242ed064436f
+// version-ae421f0582e54718
+// dumped by moon (discord.gg/skids <- pls join)
+
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-b130242ed064436f";
+    inline constexpr const char* roblox_version = "version-ae421f0582e54718";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x140;
         inline constexpr uintptr_t RenderView = 0xb50;
-        inline constexpr uintptr_t Pointer = 0x7d78148;
+        inline constexpr uintptr_t Pointer = 0x7d891c0;
         inline constexpr uintptr_t FakeDataModel = 0x1c0;
     }
 
@@ -79,6 +81,7 @@ namespace offsets {
         inline constexpr uintptr_t HealthDisplayDistance = 0x198;
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
+        inline constexpr uintptr_t WalkToPoint = 0x17c;
         inline constexpr uintptr_t WalkTimer = 0x410;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1d9;
@@ -148,13 +151,13 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6d65dec;
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7ad3288;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7b6ff58;
-        inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x7b9b808;
-        inline constexpr uintptr_t EnableLoadModule = 0x7b51af8;
-        inline constexpr uintptr_t DebugSkyGray = 0x7b14bd0;
-        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6d65938;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6d74e48;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7ae3464;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7b80488;
+        inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x7bac7d8;
+        inline constexpr uintptr_t EnableLoadModule = 0x7b61808;
+        inline constexpr uintptr_t DebugSkyGray = 0x7b24db0;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6d74930;
     }
 
     namespace Camera {
@@ -222,23 +225,23 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x81c2c38;
+        inline constexpr uintptr_t Pointer = 0x81d3ea8;
         inline constexpr uintptr_t RealDataModel = 0x1c0;
     }
 
     namespace GuiObject {
-        inline constexpr uintptr_t Visible = 0x5a5;
-        inline constexpr uintptr_t ZIndex = 0x59c;
-        inline constexpr uintptr_t BackgroundColor3 = 0x538;
-        inline constexpr uintptr_t BackgroundTransparency = 0x55c;
-        inline constexpr uintptr_t BorderSizePixel = 0x564;
+        inline constexpr uintptr_t Visible = 0x5b5;
+        inline constexpr uintptr_t ZIndex = 0x5ac;
+        inline constexpr uintptr_t BackgroundColor3 = 0x548;
+        inline constexpr uintptr_t BackgroundTransparency = 0x56c;
+        inline constexpr uintptr_t BorderSizePixel = 0x574;
     }
 
     namespace TextLabel {
-        inline constexpr uintptr_t Text = 0xac8;
-        inline constexpr uintptr_t TextColor3 = 0xed8;
-        inline constexpr uintptr_t TextSize = 0xf04;
-        inline constexpr uintptr_t TextTransparency = 0xf0c;
+        inline constexpr uintptr_t Text = 0xa60;
+        inline constexpr uintptr_t TextColor3 = 0xe70;
+        inline constexpr uintptr_t TextSize = 0xe9c;
+        inline constexpr uintptr_t TextTransparency = 0xea4;
     }
 
     namespace Attachment {
