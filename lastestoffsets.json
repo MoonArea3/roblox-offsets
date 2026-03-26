@@ -1,9 +1,9 @@
 {
-    "version": "version-ae421f0582e54718",
+    "version": "version-6776addb8fbc4d17",
     "VisualEngine": {
-        "ViewMatrix": 320,
-        "RenderView": 2896,
-        "Pointer": 131633600,
+        "ViewMatrix": 304,
+        "RenderView": 2880,
+        "Pointer": 122751576,
         "FakeDataModel": 448
     },
     "DataModel": {
@@ -17,9 +17,9 @@
         "JobId": 312
     },
     "Instance": {
-        "Parent": 104,
+        "Parent": 112,
         "ClassDescriptor": 24,
-        "ChildrenStart": 112,
+        "ChildrenStart": 120,
         "ChildrenEnd": 8,
         "Name": 176,
         "ClassName": 8
@@ -29,7 +29,7 @@
         "ModelInstance": 920,
         "UserId": 712,
         "DisplayName": 304,
-        "TeamColor": 864,
+        "TeamColor": 868,
         "Team": 672,
         "CameraMaxZoomDist": 800,
         "CameraMinZoomDist": 804
@@ -49,10 +49,10 @@
         "Size": 432,
         "AssemblyLinearVelocity": 240,
         "AssemblyAngularVelocity": 252,
-        "Material": 582,
+        "Material": 558,
         "Shape": 433,
         "PrimitiveFlags": 430,
-        "Owner": 528
+        "Owner": 504
     },
     "Humanoid": {
         "CameraOffset": 320,
@@ -96,16 +96,9 @@
         "GeographicLatitude": 400,
         "LightColor": 348
     },
-    "World": {
-        "FallenPartsDestroyHeight": 456,
-        "Gravity": 464,
-        "WorldStepPerSec": 1632,
-        "Primitives": 576
-    },
     "Workspace": {
-        "World": 992,
-        "ReadOnlyGravity": 2440,
-        "CurrentCamera": 1128
+        "ReadOnlyGravity": 2472,
+        "CurrentCamera": 1160
     },
     "VectorForce": {
         "ApplyAtCenterOfMass": 408,
@@ -129,23 +122,12 @@
         "WaterWaveSpeed": 524,
         "GrassLength": 504
     },
-    "FFlag": {
-        "PhysicsSenderMaxBandwidthBps": 114773576,
-        "TaskSchedulerTargetFps": 128857188,
-        "DebugDisableTimeoutDisconnect": 129500296,
-        "WebSocketServiceEnableClientCreation": 129681368,
-        "EnableLoadModule": 129374216,
-        "DebugSkyGray": 129125808,
-        "PartyPlayerInactivityTimeoutInSeconds": 114772272
-    },
     "Camera": {
         "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 364,
-        "FieldOfView": 352,
+        "FieldOfView": 835,
         "Position": 284,
         "CFrame": 248,
-        "ViewportInt16": 684,
-        "ViewportSize": 744,
         "CameraSubject": 232,
         "CameraType": 344
     },
@@ -160,16 +142,16 @@
         "Scale": 356
     },
     "Tool": {
-        "CanBeDropped": 1184,
-        "Enabled": 1185,
-        "ManualActivationOnly": 1186,
-        "RequiresHandle": 1187,
-        "Tooltip": 1104,
-        "Grip": 1136,
-        "GripRight": 1136,
-        "GripUp": 1148,
-        "GripForward": 1160,
-        "GripPos": 1172
+        "CanBeDropped": 1216,
+        "Enabled": 1217,
+        "ManualActivationOnly": 1218,
+        "RequiresHandle": 1219,
+        "Tooltip": 1136,
+        "Grip": 1168,
+        "GripRight": 1168,
+        "GripUp": 1180,
+        "GripForward": 1192,
+        "GripPos": 1204
     },
     "ProximityPrompt": {
         "ActionText": 208,
@@ -194,7 +176,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 136134312,
+        "Pointer": 127246552,
         "RealDataModel": 448
     },
     "GuiObject": {
@@ -238,7 +220,7 @@
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 424
+        "Bytecode": 176
     },
     "Bytecode": {
         "Size": 32,
