@@ -153,7 +153,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0xa39;
+        inline constexpr uintptr_t RequireBypass = 0x930;
     }
 
     namespace Players {
