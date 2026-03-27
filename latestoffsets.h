@@ -96,10 +96,12 @@ namespace offsets {
     }
 
     namespace Lighting {
+        inline constexpr uintptr_t Sky = 0x1d8;
         inline constexpr uintptr_t ClockTime = 0x1b8;
         inline constexpr uintptr_t Brightness = 0x120;
         inline constexpr uintptr_t Ambient = 0xd8;
         inline constexpr uintptr_t EnvironmentDiffuseScale = 0x124;
+        inline constexpr uintptr_t Atmosphere = 0x1e8;
         inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
         inline constexpr uintptr_t OutdoorAmbient = 0x108;
         inline constexpr uintptr_t ColorShift_Bottom = 0xe4;
@@ -112,7 +114,15 @@ namespace offsets {
         inline constexpr uintptr_t LightColor = 0x15c;
     }
 
+    namespace World {
+        inline constexpr uintptr_t FallenPartsDestroyHeight = 0x1d0;
+        inline constexpr uintptr_t Gravity = 0x1d8;
+        inline constexpr uintptr_t WorldStepPerSec = 0x668;
+        inline constexpr uintptr_t Primitives = 0x248;
+    }
+
     namespace Workspace {
+        inline constexpr uintptr_t World = 0x400;
         inline constexpr uintptr_t ReadOnlyGravity = 0x9a8;
         inline constexpr uintptr_t CurrentCamera = 0x488;
     }
@@ -142,18 +152,30 @@ namespace offsets {
         inline constexpr uintptr_t GrassLength = 0x1f8;
     }
 
+    namespace FFlag {
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6df7e28;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7269378;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7307018;
+        inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x73343d8;
+        inline constexpr uintptr_t EnableLoadModule = 0x72e9138;
+        inline constexpr uintptr_t DebugSkyGray = 0x72aac50;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6df793c;
+    }
+
     namespace Camera {
         inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
-        inline constexpr uintptr_t FieldOfView = 0x343;
+        inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t Position = 0x11c;
         inline constexpr uintptr_t CFrame = 0xf8;
+        inline constexpr uintptr_t ViewportInt16 = 0x2ac;
+        inline constexpr uintptr_t ViewportSize = 0x2e8;
         inline constexpr uintptr_t CameraSubject = 0xe8;
         inline constexpr uintptr_t CameraType = 0x158;
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x930;
+        inline constexpr uintptr_t RequireBypass = 0x8fd;
     }
 
     namespace Players {
@@ -257,7 +279,7 @@ namespace offsets {
     }
 
     namespace LocalScript {
-        inline constexpr uintptr_t Bytecode = 0xb0;
+        inline constexpr uintptr_t Bytecode = 0x1a8;
     }
 
     namespace Bytecode {
