@@ -82,10 +82,12 @@
         "HumanoidStateID": 32
     },
     "Lighting": {
+        "Sky": 472,
         "ClockTime": 440,
         "Brightness": 288,
         "Ambient": 216,
         "EnvironmentDiffuseScale": 292,
+        "Atmosphere": 488,
         "EnvironmentSpecularScale": 296,
         "OutdoorAmbient": 264,
         "ColorShift_Bottom": 228,
@@ -96,7 +98,14 @@
         "GeographicLatitude": 400,
         "LightColor": 348
     },
+    "World": {
+        "FallenPartsDestroyHeight": 464,
+        "Gravity": 472,
+        "WorldStepPerSec": 1640,
+        "Primitives": 584
+    },
     "Workspace": {
+        "World": 1024,
         "ReadOnlyGravity": 2472,
         "CurrentCamera": 1160
     },
@@ -122,17 +131,28 @@
         "WaterWaveSpeed": 524,
         "GrassLength": 504
     },
+    "FFlag": {
+        "PhysicsSenderMaxBandwidthBps": 115310120,
+        "TaskSchedulerTargetFps": 119968632,
+        "DebugDisableTimeoutDisconnect": 120614936,
+        "WebSocketServiceEnableClientCreation": 120800216,
+        "EnableLoadModule": 120492344,
+        "DebugSkyGray": 120237136,
+        "PartyPlayerInactivityTimeoutInSeconds": 115308860
+    },
     "Camera": {
         "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 364,
-        "FieldOfView": 835,
+        "FieldOfView": 352,
         "Position": 284,
         "CFrame": 248,
+        "ViewportInt16": 684,
+        "ViewportSize": 744,
         "CameraSubject": 232,
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2352
+        "RequireBypass": 2301
     },
     "Players": {
         "RespawnTime": 328
@@ -220,7 +240,7 @@
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 176
+        "Bytecode": 424
     },
     "Bytecode": {
         "Size": 32,
