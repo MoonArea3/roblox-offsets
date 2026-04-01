@@ -1,6 +1,8 @@
 # roblox-offsets
 Welcome to my repo! This repo has offsets for many roblox versions. If you have a auto updater service you can happily rely on this since I am a very fast updater! **let me know if you want a version to be added**
 
+you can also pick what version you want offsets for. click the versions tab on the github page, find the version you are using, and then use the offsets.
+
 ## How to Use?
 heres how to use the offsets endpoint
 
