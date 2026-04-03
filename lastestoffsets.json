@@ -1,18 +1,18 @@
 {
-    "version": "version-6776addb8fbc4d17",
+    "version": "version-689e359b09ad43b0",
     "VisualEngine": {
         "ViewMatrix": 304,
         "RenderView": 2880,
-        "Pointer": 122751576,
+        "Pointer": 133136856,
         "FakeDataModel": 448
     },
     "DataModel": {
         "PlaceId": 408,
         "GameId": 400,
-        "GameLoaded": 1536,
+        "GameLoaded": 1528,
         "CreatorId": 392,
         "Workspace": 376,
-        "ServerIP": 1512,
+        "ServerIP": 1504,
         "ScriptContext": 1008,
         "JobId": 312
     },
@@ -106,7 +106,7 @@
     },
     "Workspace": {
         "World": 1024,
-        "ReadOnlyGravity": 2472,
+        "ReadOnlyGravity": 2480,
         "CurrentCamera": 1160
     },
     "VectorForce": {
@@ -116,7 +116,7 @@
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 747,
+        "RunLocally": 224,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -132,13 +132,12 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "PhysicsSenderMaxBandwidthBps": 115310120,
-        "TaskSchedulerTargetFps": 119968632,
-        "DebugDisableTimeoutDisconnect": 120614936,
-        "WebSocketServiceEnableClientCreation": 120800216,
-        "EnableLoadModule": 120492344,
-        "DebugSkyGray": 120237136,
-        "PartyPlayerInactivityTimeoutInSeconds": 115308860
+        "PhysicsSenderMaxBandwidthBps": 116223500,
+        "TaskSchedulerTargetFps": 130352364,
+        "DebugDisableTimeoutDisconnect": 131003592,
+        "EnableLoadModule": 130878376,
+        "DebugSkyGray": 130622432,
+        "PartyPlayerInactivityTimeoutInSeconds": 116222260
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
@@ -196,7 +195,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 127246552,
+        "Pointer": 137669000,
         "RealDataModel": 448
     },
     "GuiObject": {
