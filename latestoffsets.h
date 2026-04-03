@@ -1,26 +1,26 @@
 #pragma once
 #include <cstdint>
 
-// version-6776addb8fbc4d17
+// version-689e359b09ad43b0
 // dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-6776addb8fbc4d17";
+    inline constexpr const char* roblox_version = "version-689e359b09ad43b0";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x130;
         inline constexpr uintptr_t RenderView = 0xb40;
-        inline constexpr uintptr_t Pointer = 0x7510a58;
+        inline constexpr uintptr_t Pointer = 0x7ef81d8;
         inline constexpr uintptr_t FakeDataModel = 0x1c0;
     }
 
     namespace DataModel {
         inline constexpr uintptr_t PlaceId = 0x198;
         inline constexpr uintptr_t GameId = 0x190;
-        inline constexpr uintptr_t GameLoaded = 0x600;
+        inline constexpr uintptr_t GameLoaded = 0x5f8;
         inline constexpr uintptr_t CreatorId = 0x188;
         inline constexpr uintptr_t Workspace = 0x178;
-        inline constexpr uintptr_t ServerIP = 0x5e8;
+        inline constexpr uintptr_t ServerIP = 0x5e0;
         inline constexpr uintptr_t ScriptContext = 0x3f0;
         inline constexpr uintptr_t JobId = 0x138;
     }
@@ -123,7 +123,7 @@ namespace offsets {
 
     namespace Workspace {
         inline constexpr uintptr_t World = 0x400;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9a8;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9b0;
         inline constexpr uintptr_t CurrentCamera = 0x488;
     }
 
@@ -135,7 +135,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x2eb;
+        inline constexpr uintptr_t RunLocally = 0xe0;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -153,13 +153,12 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6df7e28;
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7269378;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7307018;
-        inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x73343d8;
-        inline constexpr uintptr_t EnableLoadModule = 0x72e9138;
-        inline constexpr uintptr_t DebugSkyGray = 0x72aac50;
-        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6df793c;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6ed6e0c;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7c504ec;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7cef4c8;
+        inline constexpr uintptr_t EnableLoadModule = 0x7cd0ba8;
+        inline constexpr uintptr_t DebugSkyGray = 0x7c923e0;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6ed6934;
     }
 
     namespace Camera {
@@ -227,7 +226,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x795a0d8;
+        inline constexpr uintptr_t Pointer = 0x834a988;
         inline constexpr uintptr_t RealDataModel = 0x1c0;
     }
 
