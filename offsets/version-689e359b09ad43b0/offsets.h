@@ -58,6 +58,7 @@ namespace offsets {
     namespace Primitive {
         inline constexpr uintptr_t Position = 0xe4;
         inline constexpr uintptr_t CFrame = 0xc0;
+        inline constexpr uintptr_t Rotation = 0xc0;
         inline constexpr uintptr_t Size = 0x1b0;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xfc;
@@ -118,7 +119,7 @@ namespace offsets {
         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x1d0;
         inline constexpr uintptr_t Gravity = 0x1d8;
         inline constexpr uintptr_t WorldStepPerSec = 0x668;
-        inline constexpr uintptr_t Primitives = 0x248;
+        inline constexpr uintptr_t Primitives = 0x210;
     }
 
     namespace Workspace {
@@ -135,7 +136,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0xe0;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -157,8 +158,10 @@ namespace offsets {
         inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7c504ec;
         inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7cef4c8;
         inline constexpr uintptr_t EnableLoadModule = 0x7cd0ba8;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x6ed6e08;
         inline constexpr uintptr_t DebugSkyGray = 0x7c923e0;
         inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6ed6934;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7f22158;
     }
 
     namespace Camera {
@@ -174,7 +177,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x8fd;
+        inline constexpr uintptr_t RequireBypass = 0x861;
     }
 
     namespace Players {
@@ -284,5 +287,17 @@ namespace offsets {
     namespace Bytecode {
         inline constexpr uintptr_t Size = 0x20;
         inline constexpr uintptr_t Pointer = 0x10;
+    }
+
+    namespace MeshData {
+        inline constexpr uintptr_t FaceEnd = 0x38;
+        inline constexpr uintptr_t FaceStart = 0x30;
+        inline constexpr uintptr_t VertexEnd = 0x8;
+        inline constexpr uintptr_t VertexStart = 0x0;
+    }
+
+    namespace MeshPart {
+        inline constexpr uintptr_t MeshId = 0x2e8;
+        inline constexpr uintptr_t Texture = 0x318;
     }
 }
