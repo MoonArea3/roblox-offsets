@@ -20,36 +20,18 @@ I will also post offset tutorials so people can learn how to use these offsets f
 
 If there are any problems or you want a version posted, please make a issue on this repo!
 
-## New Features (v1.1!)
+## New Features (v1.2!)
 
-Added FFlag Offsets
-- PhysicsSenderMaxBandwidthBps
-- TaskSchedulerTargetFps
-- DebugDisableTimeoutDisconnect
-- WebSocketServiceEnableClientCreation
-- EnableLoadModule
-- DebugSkyGray
-- PartyPlayerInactivityTimeoutInSeconds 
+- Added MeshData Class
+ - FaceStart
+ - FaceEnd
+ - VertexEnd
+ - VertexStart
 
-Added More Lighting Offsets:
-- Ambient
-- EnvironmentDiffuseScale
-- EnvironmentSpecularScale
+- Added MeshPart offsets
+ - MeshId
+ - Texture
 
-Added Lighting Params:
- - GeographicLatitude
- - LightColor
- - LightDirection
-
-Added More Camera Offsets
-- DiagonalFieldOfView
-- MaxAxisFieldOfView
-
-Added New Humanoid Offset
-- CameraOffset
-- WalkToPoint
-- WalkToPart
-  
 **also fixed some bugs and wrong offsets**
 ps: should i open roblox studio and learn to dump more offsets?
 
