@@ -22,15 +22,8 @@ If there are any problems or you want a version posted, please make a issue on t
 
 ## New Features (v1.2!)
 
-- Added MeshData Class
- - FaceStart
- - FaceEnd
- - VertexEnd
- - VertexStart
-
-- Added MeshPart offsets
- - MeshId
- - Texture
+- Added MeshPart & Data Class
+- Added NextGenReplicatorEnabledWrite4 & PhysicsSenderMaxBandwidthBpsScaling 
 
 **also fixed some bugs and wrong offsets**
 ps: should i open roblox studio and learn to dump more offsets?
