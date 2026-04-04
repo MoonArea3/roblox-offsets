@@ -46,6 +46,7 @@
     "Primitive": {
         "Position": 228,
         "CFrame": 192,
+        "Rotation": 192,
         "Size": 432,
         "AssemblyLinearVelocity": 240,
         "AssemblyAngularVelocity": 252,
@@ -69,7 +70,7 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
-        "WalkTimer": 1040,
+        "WalkTimer": 1024,
         "WalkToPart": 304,
         "AutoRotate": 473,
         "Sit": 481,
@@ -100,7 +101,7 @@
     },
     "World": {
         "FallenPartsDestroyHeight": 464,
-        "Gravity": 472,
+        "Gravity": 400,
         "WorldStepPerSec": 1640,
         "Primitives": 584
     },
@@ -110,13 +111,13 @@
         "CurrentCamera": 1160
     },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 408,
+        "ApplyAtCenterOfMass": 357,
         "Force": 392,
         "RelativeTo": 404
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 224,
+        "RunLocally": 747,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -151,7 +152,7 @@
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2301
+        "RequireBypass": 2145
     },
     "Players": {
         "RespawnTime": 328
@@ -244,5 +245,15 @@
     "Bytecode": {
         "Size": 32,
         "Pointer": 16
+    },
+    "MeshData": {
+        "FaceEnd": 56,
+        "FaceStart": 48,
+        "VertexEnd": 8,
+        "VertexStart": 0
+    },
+    "MeshPart": {
+        "MeshId": 744,
+        "Texture": 792
     }
 }
