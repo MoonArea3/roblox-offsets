@@ -58,6 +58,7 @@ namespace offsets {
     namespace Primitive {
         inline constexpr uintptr_t Position = 0xe4;
         inline constexpr uintptr_t CFrame = 0xc0;
+        inline constexpr uintptr_t Rotation = 0xc0;
         inline constexpr uintptr_t Size = 0x1b0;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xfc;
@@ -82,7 +83,7 @@ namespace offsets {
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
-        inline constexpr uintptr_t WalkTimer = 0x410;
+        inline constexpr uintptr_t WalkTimer = 0x400;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1d9;
         inline constexpr uintptr_t Sit = 0x1e1;
@@ -116,7 +117,7 @@ namespace offsets {
 
     namespace World {
         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x1d0;
-        inline constexpr uintptr_t Gravity = 0x1d8;
+        inline constexpr uintptr_t Gravity = 0x190;
         inline constexpr uintptr_t WorldStepPerSec = 0x668;
         inline constexpr uintptr_t Primitives = 0x248;
     }
@@ -128,14 +129,14 @@ namespace offsets {
     }
 
     namespace VectorForce {
-        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x198;
+        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x165;
         inline constexpr uintptr_t Force = 0x188;
         inline constexpr uintptr_t RelativeTo = 0x194;
     }
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0xe0;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -174,7 +175,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x8fd;
+        inline constexpr uintptr_t RequireBypass = 0x861;
     }
 
     namespace Players {
@@ -284,5 +285,17 @@ namespace offsets {
     namespace Bytecode {
         inline constexpr uintptr_t Size = 0x20;
         inline constexpr uintptr_t Pointer = 0x10;
+    }
+
+    namespace MeshData {
+        inline constexpr uintptr_t FaceEnd = 0x38;
+        inline constexpr uintptr_t FaceStart = 0x30;
+        inline constexpr uintptr_t VertexEnd = 0x8;
+        inline constexpr uintptr_t VertexStart = 0x0;
+    }
+
+    namespace MeshPart {
+        inline constexpr uintptr_t MeshId = 0x2e8;
+        inline constexpr uintptr_t Texture = 0x318;
     }
 }
