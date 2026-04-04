@@ -70,7 +70,7 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
-        "WalkTimer": 1024,
+        "WalkTimer": 1040,
         "WalkToPart": 304,
         "AutoRotate": 473,
         "Sit": 481,
@@ -101,9 +101,9 @@
     },
     "World": {
         "FallenPartsDestroyHeight": 464,
-        "Gravity": 400,
+        "Gravity": 472,
         "WorldStepPerSec": 1640,
-        "Primitives": 584
+        "Primitives": 528
     },
     "Workspace": {
         "World": 1024,
@@ -111,7 +111,7 @@
         "CurrentCamera": 1160
     },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 357,
+        "ApplyAtCenterOfMass": 408,
         "Force": 392,
         "RelativeTo": 404
     },
@@ -137,8 +137,10 @@
         "TaskSchedulerTargetFps": 130352364,
         "DebugDisableTimeoutDisconnect": 131003592,
         "EnableLoadModule": 130878376,
+        "PhysicsSenderMaxBandwidthBpsScaling": 116223496,
         "DebugSkyGray": 130622432,
-        "PartyPlayerInactivityTimeoutInSeconds": 116222260
+        "PartyPlayerInactivityTimeoutInSeconds": 116222260,
+        "NextGenReplicatorEnabledWrite4": 133308760
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
