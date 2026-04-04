@@ -83,7 +83,7 @@ namespace offsets {
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
-        inline constexpr uintptr_t WalkTimer = 0x400;
+        inline constexpr uintptr_t WalkTimer = 0x410;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1d9;
         inline constexpr uintptr_t Sit = 0x1e1;
@@ -117,9 +117,9 @@ namespace offsets {
 
     namespace World {
         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x1d0;
-        inline constexpr uintptr_t Gravity = 0x190;
+        inline constexpr uintptr_t Gravity = 0x1d8;
         inline constexpr uintptr_t WorldStepPerSec = 0x668;
-        inline constexpr uintptr_t Primitives = 0x248;
+        inline constexpr uintptr_t Primitives = 0x210;
     }
 
     namespace Workspace {
@@ -129,7 +129,7 @@ namespace offsets {
     }
 
     namespace VectorForce {
-        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x165;
+        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x198;
         inline constexpr uintptr_t Force = 0x188;
         inline constexpr uintptr_t RelativeTo = 0x194;
     }
@@ -158,8 +158,10 @@ namespace offsets {
         inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7c504ec;
         inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7cef4c8;
         inline constexpr uintptr_t EnableLoadModule = 0x7cd0ba8;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x6ed6e08;
         inline constexpr uintptr_t DebugSkyGray = 0x7c923e0;
         inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6ed6934;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7f22158;
     }
 
     namespace Camera {
