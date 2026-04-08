@@ -1,9 +1,9 @@
 {
-    "version": "version-689e359b09ad43b0",
+    "version": "version-695a88dd8425491f",
     "VisualEngine": {
         "ViewMatrix": 304,
         "RenderView": 2880,
-        "Pointer": 133136856,
+        "Pointer": 123526960,
         "FakeDataModel": 448
     },
     "DataModel": {
@@ -70,7 +70,7 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
-        "WalkTimer": 1040,
+        "WalkTimer": 800,
         "WalkToPart": 304,
         "AutoRotate": 473,
         "Sit": 481,
@@ -99,19 +99,16 @@
         "GeographicLatitude": 400,
         "LightColor": 348
     },
-    "World": {
-        "FallenPartsDestroyHeight": 464,
-        "Gravity": 472,
-        "WorldStepPerSec": 1640,
-        "Primitives": 528
-    },
     "Workspace": {
-        "World": 1024,
+        "World": 208,
         "ReadOnlyGravity": 2480,
         "CurrentCamera": 1160
     },
+    "World": {
+        "Gravity": 28
+    },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 408,
+        "ApplyAtCenterOfMass": 333,
         "Force": 392,
         "RelativeTo": 404
     },
@@ -133,21 +130,20 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "PhysicsSenderMaxBandwidthBps": 116223500,
-        "TaskSchedulerTargetFps": 130352364,
-        "DebugDisableTimeoutDisconnect": 131003592,
-        "EnableLoadModule": 130878376,
-        "PhysicsSenderMaxBandwidthBpsScaling": 116223496,
-        "DebugSkyGray": 130622432,
-        "PartyPlayerInactivityTimeoutInSeconds": 116222260,
-        "NextGenReplicatorEnabledWrite4": 133308760
+        "PhysicsSenderMaxBandwidthBps": 116071948,
+        "TaskSchedulerTargetFps": 120739676,
+        "DebugDisableTimeoutDisconnect": 121392568,
+        "EnableLoadModule": 121270344,
+        "PhysicsSenderMaxBandwidthBpsScaling": 116071940,
+        "DebugSkyGray": 121009784,
+        "PartyPlayerInactivityTimeoutInSeconds": 116070704,
+        "NextGenReplicatorEnabledWrite4": 123698704
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 364,
-        "FieldOfView": 352,
-        "Position": 284,
-        "CFrame": 248,
+        "Position": 648,
+        "CFrame": 612,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
@@ -198,7 +194,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 137669000,
+        "Pointer": 128053816,
         "RealDataModel": 448
     },
     "GuiObject": {
@@ -229,9 +225,9 @@
         "PlaybackRegion": 280
     },
     "BodyVelocity": {
-        "MaxForce": 520,
-        "Velocity": 532,
-        "P": 544
+        "MaxForce": 672,
+        "Velocity": 684,
+        "P": 696
     },
     "LinearVelocity": {
         "MaxForce": 424,
@@ -242,7 +238,7 @@
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 424
+        "Bytecode": 240
     },
     "Bytecode": {
         "Size": 32,
