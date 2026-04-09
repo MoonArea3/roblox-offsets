@@ -70,7 +70,7 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
-        "WalkTimer": 800,
+        "WalkTimer": 1040,
         "WalkToPart": 304,
         "AutoRotate": 473,
         "Sit": 481,
@@ -99,16 +99,19 @@
         "GeographicLatitude": 400,
         "LightColor": 348
     },
+    "World": {
+        "FallenPartsDestroyHeight": 464,
+        "Gravity": 472,
+        "WorldStepPerSec": 1640,
+        "Primitives": 584
+    },
     "Workspace": {
-        "World": 208,
+        "World": 1024,
         "ReadOnlyGravity": 2480,
         "CurrentCamera": 1160
     },
-    "World": {
-        "Gravity": 28
-    },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 333,
+        "ApplyAtCenterOfMass": 408,
         "Force": 392,
         "RelativeTo": 404
     },
@@ -140,10 +143,10 @@
         "NextGenReplicatorEnabledWrite4": 123698704
     },
     "Camera": {
-        "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 364,
-        "Position": 648,
-        "CFrame": 612,
+        "FieldOfView": 352,
+        "Position": 284,
+        "CFrame": 248,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
@@ -238,7 +241,7 @@
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 240
+        "Bytecode": 424
     },
     "Bytecode": {
         "Size": 32,
