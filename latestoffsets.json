@@ -1,9 +1,9 @@
 {
-    "version": "version-695a88dd8425491f",
+    "version": "version-689e359b09ad43b0",
     "VisualEngine": {
         "ViewMatrix": 304,
         "RenderView": 2880,
-        "Pointer": 123526960,
+        "Pointer": 133136856,
         "FakeDataModel": 448
     },
     "DataModel": {
@@ -103,7 +103,7 @@
         "FallenPartsDestroyHeight": 464,
         "Gravity": 472,
         "WorldStepPerSec": 1640,
-        "Primitives": 584
+        "Primitives": 528
     },
     "Workspace": {
         "World": 1024,
@@ -133,16 +133,17 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "PhysicsSenderMaxBandwidthBps": 116071948,
-        "TaskSchedulerTargetFps": 120739676,
-        "DebugDisableTimeoutDisconnect": 121392568,
-        "EnableLoadModule": 121270344,
-        "PhysicsSenderMaxBandwidthBpsScaling": 116071940,
-        "DebugSkyGray": 121009784,
-        "PartyPlayerInactivityTimeoutInSeconds": 116070704,
-        "NextGenReplicatorEnabledWrite4": 123698704
+        "PhysicsSenderMaxBandwidthBps": 116223500,
+        "TaskSchedulerTargetFps": 130352364,
+        "DebugDisableTimeoutDisconnect": 131003592,
+        "EnableLoadModule": 130878376,
+        "PhysicsSenderMaxBandwidthBpsScaling": 116223496,
+        "DebugSkyGray": 130622432,
+        "PartyPlayerInactivityTimeoutInSeconds": 116222260,
+        "NextGenReplicatorEnabledWrite4": 133308760
     },
     "Camera": {
+        "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 364,
         "FieldOfView": 352,
         "Position": 284,
@@ -153,7 +154,7 @@
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2288
+        "RequireBypass": 2145
     },
     "Players": {
         "RespawnTime": 328
@@ -197,7 +198,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 128053816,
+        "Pointer": 137669000,
         "RealDataModel": 448
     },
     "GuiObject": {
@@ -228,9 +229,9 @@
         "PlaybackRegion": 280
     },
     "BodyVelocity": {
-        "MaxForce": 672,
-        "Velocity": 684,
-        "P": 696
+        "MaxForce": 520,
+        "Velocity": 532,
+        "P": 544
     },
     "LinearVelocity": {
         "MaxForce": 424,
