@@ -83,7 +83,7 @@ namespace offsets {
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
-        inline constexpr uintptr_t WalkTimer = 0x320;
+        inline constexpr uintptr_t WalkTimer = 0x410;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1d9;
         inline constexpr uintptr_t Sit = 0x1e1;
@@ -115,18 +115,21 @@ namespace offsets {
         inline constexpr uintptr_t LightColor = 0x15c;
     }
 
+    namespace World {
+        inline constexpr uintptr_t FallenPartsDestroyHeight = 0x1d0;
+        inline constexpr uintptr_t Gravity = 0x1d8;
+        inline constexpr uintptr_t WorldStepPerSec = 0x668;
+        inline constexpr uintptr_t Primitives = 0x248;
+    }
+
     namespace Workspace {
-        inline constexpr uintptr_t World = 0xd0;
+        inline constexpr uintptr_t World = 0x400;
         inline constexpr uintptr_t ReadOnlyGravity = 0x9b0;
         inline constexpr uintptr_t CurrentCamera = 0x488;
     }
 
-    namespace World {
-        inline constexpr uintptr_t Gravity = 0x1c;
-    }
-
     namespace VectorForce {
-        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x14d;
+        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x198;
         inline constexpr uintptr_t Force = 0x188;
         inline constexpr uintptr_t RelativeTo = 0x194;
     }
@@ -162,10 +165,10 @@ namespace offsets {
     }
 
     namespace Camera {
-        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
-        inline constexpr uintptr_t Position = 0x288;
-        inline constexpr uintptr_t CFrame = 0x264;
+        inline constexpr uintptr_t FieldOfView = 0x160;
+        inline constexpr uintptr_t Position = 0x11c;
+        inline constexpr uintptr_t CFrame = 0xf8;
         inline constexpr uintptr_t ViewportInt16 = 0x2ac;
         inline constexpr uintptr_t ViewportSize = 0x2e8;
         inline constexpr uintptr_t CameraSubject = 0xe8;
@@ -277,7 +280,7 @@ namespace offsets {
     }
 
     namespace LocalScript {
-        inline constexpr uintptr_t Bytecode = 0xf0;
+        inline constexpr uintptr_t Bytecode = 0x1a8;
     }
 
     namespace Bytecode {
