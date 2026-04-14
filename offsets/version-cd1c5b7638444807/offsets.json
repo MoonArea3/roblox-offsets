@@ -1,0 +1,256 @@
+{
+    "version": "version-cd1c5b7638444807",
+    "VisualEngine": {
+        "ViewMatrix": 304,
+        "RenderView": 2880,
+        "Pointer": 123983096,
+        "FakeDataModel": 448
+    },
+    "DataModel": {
+        "PlaceId": 408,
+        "GameId": 400,
+        "GameLoaded": 1528,
+        "CreatorId": 392,
+        "Workspace": 376,
+        "ServerIP": 1504,
+        "ScriptContext": 1008,
+        "JobId": 312
+    },
+    "Instance": {
+        "Parent": 112,
+        "ClassDescriptor": 24,
+        "ChildrenStart": 120,
+        "ChildrenEnd": 8,
+        "Name": 176,
+        "ClassName": 8
+    },
+    "Player": {
+        "LocalPlayer": 304,
+        "ModelInstance": 920,
+        "UserId": 712,
+        "DisplayName": 304,
+        "TeamColor": 868,
+        "Team": 672,
+        "CameraMaxZoomDist": 800,
+        "CameraMinZoomDist": 804
+    },
+    "BasePart": {
+        "Primitive": 328,
+        "Reflectance": 236,
+        "Color3": 404,
+        "Transparency": 240,
+        "CastShadow": 245,
+        "Locked": 246,
+        "Massless": 247
+    },
+    "Primitive": {
+        "Position": 228,
+        "CFrame": 192,
+        "Rotation": 192,
+        "Size": 432,
+        "AssemblyLinearVelocity": 240,
+        "AssemblyAngularVelocity": 252,
+        "Material": 558,
+        "Shape": 433,
+        "PrimitiveFlags": 430,
+        "Owner": 504
+    },
+    "Humanoid": {
+        "CameraOffset": 320,
+        "UseJumpPower": 483,
+        "AutoJumpEnabled": 472,
+        "Health": 404,
+        "MaxHealth": 436,
+        "WalkSpeed": 468,
+        "WalkSpeedCheck": 956,
+        "JumpPower": 432,
+        "JumpHeight": 428,
+        "HipHeight": 416,
+        "HealthDisplayDistance": 408,
+        "MaxSlopeAngle": 440,
+        "NameDisplayDistance": 444,
+        "WalkToPoint": 380,
+        "WalkTimer": 1040,
+        "WalkToPart": 304,
+        "AutoRotate": 473,
+        "Sit": 481,
+        "BreakJointsOnDeath": 475,
+        "RequiresNeck": 480,
+        "EvaluateStateMachine": 476,
+        "RigType": 456,
+        "TargetPoint": 356,
+        "HumanoidState": 2264,
+        "HumanoidStateID": 32
+    },
+    "Lighting": {
+        "Sky": 472,
+        "ClockTime": 440,
+        "Brightness": 288,
+        "Ambient": 216,
+        "EnvironmentDiffuseScale": 292,
+        "Atmosphere": 488,
+        "EnvironmentSpecularScale": 296,
+        "OutdoorAmbient": 264,
+        "ColorShift_Bottom": 228,
+        "ColorShift_Top": 240,
+        "ShadowSoftness": 320
+    },
+    "LightingParameters": {
+        "GeographicLatitude": 400,
+        "LightColor": 348
+    },
+    "World": {
+        "FallenPartsDestroyHeight": 464,
+        "Gravity": 472,
+        "WorldStepPerSec": 1640,
+        "Primitives": 584
+    },
+    "Workspace": {
+        "World": 1032,
+        "ReadOnlyGravity": 2496,
+        "CurrentCamera": 1168
+    },
+    "VectorForce": {
+        "ApplyAtCenterOfMass": 408,
+        "Force": 392,
+        "RelativeTo": 404
+    },
+    "DragDetector": {
+        "Enabled": 249,
+        "RunLocally": 237,
+        "MaxDragTranslation": 644,
+        "MinDragTranslation": 656,
+        "MaxForce": 708,
+        "Responsiveness": 728,
+        "DragStyle": 692
+    },
+    "Terrain": {
+        "WaterColor": 488,
+        "WaterReflectance": 512,
+        "WaterTransparency": 516,
+        "WaterWaveSize": 520,
+        "WaterWaveSpeed": 524,
+        "GrassLength": 504
+    },
+    "FFlag": {
+        "TaskSchedulerTargetFps": 121192372,
+        "PhysicsSenderMaxBandwidthBps": 116526680,
+        "DebugDisableTimeoutDisconnect": 121849880,
+        "EnableLoadModule": 121727736,
+        "PhysicsSenderMaxBandwidthBpsScaling": 116526672,
+        "DebugSkyGray": 121459200,
+        "PartyPlayerInactivityTimeoutInSeconds": 116525372,
+        "NextGenReplicatorEnabledWrite4": 122526416
+    },
+    "Camera": {
+        "ViewportInt16": 684,
+        "ViewportSize": 744,
+        "CameraSubject": 232,
+        "CameraType": 344
+    },
+    "Script": {
+        "RequireBypass": 2145
+    },
+    "Players": {
+        "RespawnTime": 328
+    },
+    "Model": {
+        "PrimaryPart": 632,
+        "Scale": 356
+    },
+    "Tool": {
+        "CanBeDropped": 1224,
+        "Enabled": 1225,
+        "ManualActivationOnly": 1226,
+        "RequiresHandle": 1227,
+        "Tooltip": 1144,
+        "Grip": 1176,
+        "GripRight": 1176,
+        "GripUp": 1188,
+        "GripForward": 1200,
+        "GripPos": 1212
+    },
+    "ProximityPrompt": {
+        "ActionText": 208,
+        "ObjectText": 240,
+        "HoldDuration": 320,
+        "MaxActivationDistance": 328,
+        "KeyboardKeyCode": 324,
+        "Enabled": 342,
+        "RequiresLineOfSight": 343
+    },
+    "ClickDetector": {
+        "MaxActivationDistance": 256
+    },
+    "Misc": {
+        "Value": 208,
+        "StatsItemValue": 208
+    },
+    "PrimitiveFlags": {
+        "Anchored": 2,
+        "CanCollide": 8,
+        "CanTouch": 16,
+        "CanQuery": 32
+    },
+    "FakeDataModel": {
+        "Pointer": 128514648,
+        "RealDataModel": 448
+    },
+    "GuiObject": {
+        "Visible": 1461,
+        "ZIndex": 1452,
+        "BackgroundColor3": 1352,
+        "BackgroundTransparency": 1388,
+        "BorderSizePixel": 1396
+    },
+    "TextLabel": {
+        "Text": 2656,
+        "TextColor3": 3696,
+        "TextSize": 3740,
+        "TextTransparency": 3748
+    },
+    "Attachment": {
+        "WorldCFrame": 184,
+        "WorldAxis": 208,
+        "WorldSecondaryAxis": 232,
+        "WorldPosition": 220
+    },
+    "Sound": {
+        "SoundId": 224,
+        "Volume": 324,
+        "PlaybackSpeed": 304,
+        "Looped": 337,
+        "LoopRegion": 272,
+        "PlaybackRegion": 280
+    },
+    "BodyVelocity": {
+        "MaxForce": 672,
+        "Velocity": 684,
+        "P": 696
+    },
+    "LinearVelocity": {
+        "MaxForce": 424,
+        "VectorVelocity": 604
+    },
+    "ModuleScript": {
+        "Bytecode": 336,
+        "Hash": 352
+    },
+    "LocalScript": {
+        "Bytecode": 424
+    },
+    "Bytecode": {
+        "Size": 32,
+        "Pointer": 16
+    },
+    "MeshData": {
+        "FaceEnd": 56,
+        "FaceStart": 48,
+        "VertexEnd": 8,
+        "VertexStart": 0
+    },
+    "MeshPart": {
+        "MeshId": 744,
+        "Texture": 792
+    }
+}
