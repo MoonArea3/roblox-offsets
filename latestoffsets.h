@@ -2,7 +2,7 @@
 #include <cstdint>
 
 // version-26c90be22e0d4758
-// dumped by moon (discord.gg/skids <- pls join)
+// dumped by moon (discord.gg/skids <- pls join plss)
 
 namespace offsets {
     inline constexpr const char* roblox_version = "version-26c90be22e0d4758";
