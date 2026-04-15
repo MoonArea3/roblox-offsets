@@ -1,16 +1,16 @@
 #pragma once
 #include <cstdint>
 
-// version-689e359b09ad43b0
+// version-26c90be22e0d4758
 // dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-689e359b09ad43b0";
+    inline constexpr const char* roblox_version = "version-26c90be22e0d4758";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x130;
         inline constexpr uintptr_t RenderView = 0xb40;
-        inline constexpr uintptr_t Pointer = 0x7ef81d8;
+        inline constexpr uintptr_t Pointer = 0x75cc058;
         inline constexpr uintptr_t FakeDataModel = 0x1c0;
     }
 
@@ -119,7 +119,7 @@ namespace offsets {
         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x1d0;
         inline constexpr uintptr_t Gravity = 0x1d8;
         inline constexpr uintptr_t WorldStepPerSec = 0x668;
-        inline constexpr uintptr_t Primitives = 0x210;
+        inline constexpr uintptr_t Primitives = 0x248;
     }
 
     namespace Workspace {
@@ -154,18 +154,17 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6ed6e0c;
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7c504ec;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7cef4c8;
-        inline constexpr uintptr_t EnableLoadModule = 0x7cd0ba8;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x6ed6e08;
-        inline constexpr uintptr_t DebugSkyGray = 0x7c923e0;
-        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6ed6934;
-        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7f22158;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6eafe0c;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7323808;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x73c2e58;
+        inline constexpr uintptr_t EnableLoadModule = 0x73a50e8;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x6eafe04;
+        inline constexpr uintptr_t DebugSkyGray = 0x73657b8;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6eaf930;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x75f5f38;
     }
 
     namespace Camera {
-        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
         inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t Position = 0x11c;
@@ -229,7 +228,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x834a988;
+        inline constexpr uintptr_t Pointer = 0x7a1d388;
         inline constexpr uintptr_t RealDataModel = 0x1c0;
     }
 
@@ -265,9 +264,9 @@ namespace offsets {
     }
 
     namespace BodyVelocity {
-        inline constexpr uintptr_t MaxForce = 0x208;
-        inline constexpr uintptr_t Velocity = 0x214;
-        inline constexpr uintptr_t P = 0x220;
+        inline constexpr uintptr_t MaxForce = 0x2a0;
+        inline constexpr uintptr_t Velocity = 0x2ac;
+        inline constexpr uintptr_t P = 0x2b8;
     }
 
     namespace LinearVelocity {
