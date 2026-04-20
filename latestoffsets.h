@@ -1,16 +1,16 @@
 #pragma once
 #include <cstdint>
 
-// version-26c90be22e0d4758
-// dumped by moon (discord.gg/skids <- pls join plss)
+// version-9d412f44a6fe4081
+// dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-26c90be22e0d4758";
+    inline constexpr const char* roblox_version = "version-9d412f44a6fe4081";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x130;
         inline constexpr uintptr_t RenderView = 0xb40;
-        inline constexpr uintptr_t Pointer = 0x75cc058;
+        inline constexpr uintptr_t Pointer = 0x763d3d0;
         inline constexpr uintptr_t FakeDataModel = 0x1c0;
     }
 
@@ -62,7 +62,7 @@ namespace offsets {
         inline constexpr uintptr_t Size = 0x1b0;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xfc;
-        inline constexpr uintptr_t Material = 0x22e;
+        inline constexpr uintptr_t Material = 0xb4;
         inline constexpr uintptr_t Shape = 0x1b1;
         inline constexpr uintptr_t PrimitiveFlags = 0x1ae;
         inline constexpr uintptr_t Owner = 0x1f8;
@@ -123,9 +123,9 @@ namespace offsets {
     }
 
     namespace Workspace {
-        inline constexpr uintptr_t World = 0x400;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9b0;
-        inline constexpr uintptr_t CurrentCamera = 0x488;
+        inline constexpr uintptr_t World = 0x408;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9c0;
+        inline constexpr uintptr_t CurrentCamera = 0x490;
     }
 
     namespace VectorForce {
@@ -154,21 +154,18 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6eafe0c;
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7323808;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x73c2e58;
-        inline constexpr uintptr_t EnableLoadModule = 0x73a50e8;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x6eafe04;
-        inline constexpr uintptr_t DebugSkyGray = 0x73657b8;
-        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6eaf930;
-        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x75f5f38;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7393e74;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x6f20e58;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7434668;
+        inline constexpr uintptr_t EnableLoadModule = 0x7416a58;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x6f20e50;
+        inline constexpr uintptr_t DebugSkyGray = 0x73d50c0;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x6f2093c;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x74d99a8;
     }
 
     namespace Camera {
-        inline constexpr uintptr_t MaxAxisFieldOfView = 0x16c;
-        inline constexpr uintptr_t FieldOfView = 0x160;
-        inline constexpr uintptr_t Position = 0x11c;
-        inline constexpr uintptr_t CFrame = 0xf8;
+        inline constexpr uintptr_t MaxAxisFieldOfView = 0x14c;
         inline constexpr uintptr_t ViewportInt16 = 0x2ac;
         inline constexpr uintptr_t ViewportSize = 0x2e8;
         inline constexpr uintptr_t CameraSubject = 0xe8;
@@ -189,16 +186,16 @@ namespace offsets {
     }
 
     namespace Tool {
-        inline constexpr uintptr_t CanBeDropped = 0x4c0;
-        inline constexpr uintptr_t Enabled = 0x4c1;
-        inline constexpr uintptr_t ManualActivationOnly = 0x4c2;
-        inline constexpr uintptr_t RequiresHandle = 0x4c3;
-        inline constexpr uintptr_t Tooltip = 0x470;
-        inline constexpr uintptr_t Grip = 0x490;
-        inline constexpr uintptr_t GripRight = 0x490;
-        inline constexpr uintptr_t GripUp = 0x49c;
-        inline constexpr uintptr_t GripForward = 0x4a8;
-        inline constexpr uintptr_t GripPos = 0x4b4;
+        inline constexpr uintptr_t CanBeDropped = 0x4c8;
+        inline constexpr uintptr_t Enabled = 0x4c9;
+        inline constexpr uintptr_t ManualActivationOnly = 0x4ca;
+        inline constexpr uintptr_t RequiresHandle = 0x4cb;
+        inline constexpr uintptr_t Tooltip = 0x478;
+        inline constexpr uintptr_t Grip = 0x498;
+        inline constexpr uintptr_t GripRight = 0x498;
+        inline constexpr uintptr_t GripUp = 0x4a4;
+        inline constexpr uintptr_t GripForward = 0x4b0;
+        inline constexpr uintptr_t GripPos = 0x4bc;
     }
 
     namespace ProximityPrompt {
@@ -228,7 +225,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7a1d388;
+        inline constexpr uintptr_t Pointer = 0x7a8f908;
         inline constexpr uintptr_t RealDataModel = 0x1c0;
     }
 
@@ -258,7 +255,7 @@ namespace offsets {
         inline constexpr uintptr_t SoundId = 0xe0;
         inline constexpr uintptr_t Volume = 0x144;
         inline constexpr uintptr_t PlaybackSpeed = 0x130;
-        inline constexpr uintptr_t Looped = 0x152;
+        inline constexpr uintptr_t Looped = 0x151;
         inline constexpr uintptr_t LoopRegion = 0x110;
         inline constexpr uintptr_t PlaybackRegion = 0x118;
     }
