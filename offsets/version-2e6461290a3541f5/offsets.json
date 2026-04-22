@@ -79,7 +79,7 @@
         "EvaluateStateMachine": 476,
         "RigType": 456,
         "TargetPoint": 356,
-        "HumanoidState": 2264,
+        "HumanoidState": 2200,
         "HumanoidStateID": 32
     },
     "Lighting": {
@@ -91,8 +91,8 @@
         "Atmosphere": 488,
         "EnvironmentSpecularScale": 296,
         "OutdoorAmbient": 264,
-        "ColorShift_Bottom": 228,
-        "ColorShift_Top": 240,
+        "ColorShift_Bottom": 240,
+        "ColorShift_Top": 228,
         "ShadowSoftness": 320
     },
     "LightingParameters": {
@@ -117,7 +117,7 @@
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 400,
+        "RunLocally": 747,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -143,14 +143,16 @@
         "NextGenReplicatorEnabledWrite4": 123610608
     },
     "Camera": {
+        "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 348,
+        "FieldOfView": 352,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2145
+        "RequireBypass": 0
     },
     "Players": {
         "RespawnTime": 328
@@ -234,14 +236,14 @@
         "VectorVelocity": 604
     },
     "ModuleScript": {
-        "Bytecode": 336,
+        "Bytecode": 224,
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 176
+        "Bytecode": 424
     },
     "Bytecode": {
-        "Size": 32,
+        "Size": 40,
         "Pointer": 16
     },
     "MeshData": {
@@ -251,7 +253,6 @@
         "VertexStart": 0
     },
     "MeshPart": {
-        "MeshId": 744,
-        "Texture": 792
+        "Texture": 808
     }
 }
