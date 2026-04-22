@@ -254,5 +254,8 @@
     },
     "MeshPart": {
         "Texture": 808
+    },
+    "Skid": {
+        "Region": 0
     }
 }
