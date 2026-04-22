@@ -92,7 +92,7 @@ namespace offsets {
         inline constexpr uintptr_t EvaluateStateMachine = 0x1dc;
         inline constexpr uintptr_t RigType = 0x1c8;
         inline constexpr uintptr_t TargetPoint = 0x164;
-        inline constexpr uintptr_t HumanoidState = 0x8d8;
+        inline constexpr uintptr_t HumanoidState = 0x898;
         inline constexpr uintptr_t HumanoidStateID = 0x20;
     }
 
@@ -105,8 +105,8 @@ namespace offsets {
         inline constexpr uintptr_t Atmosphere = 0x1e8;
         inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
         inline constexpr uintptr_t OutdoorAmbient = 0x108;
-        inline constexpr uintptr_t ColorShift_Bottom = 0xe4;
-        inline constexpr uintptr_t ColorShift_Top = 0xf0;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xf0;
+        inline constexpr uintptr_t ColorShift_Top = 0xe4;
         inline constexpr uintptr_t ShadowSoftness = 0x140;
     }
 
@@ -136,7 +136,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x190;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -165,7 +165,9 @@ namespace offsets {
     }
 
     namespace Camera {
+        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x15c;
+        inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t ViewportInt16 = 0x2ac;
         inline constexpr uintptr_t ViewportSize = 0x2e8;
         inline constexpr uintptr_t CameraSubject = 0xe8;
@@ -173,7 +175,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x861;
+        inline constexpr uintptr_t RequireBypass = 0x0;
     }
 
     namespace Players {
@@ -272,16 +274,16 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0x150;
+        inline constexpr uintptr_t Bytecode = 0xe0;
         inline constexpr uintptr_t Hash = 0x160;
     }
 
     namespace LocalScript {
-        inline constexpr uintptr_t Bytecode = 0xb0;
+        inline constexpr uintptr_t Bytecode = 0x1a8;
     }
 
     namespace Bytecode {
-        inline constexpr uintptr_t Size = 0x20;
+        inline constexpr uintptr_t Size = 0x28;
         inline constexpr uintptr_t Pointer = 0x10;
     }
 
@@ -293,7 +295,6 @@ namespace offsets {
     }
 
     namespace MeshPart {
-        inline constexpr uintptr_t MeshId = 0x2e8;
-        inline constexpr uintptr_t Texture = 0x318;
+        inline constexpr uintptr_t Texture = 0x328;
     }
 }
