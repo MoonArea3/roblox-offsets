@@ -1,10 +1,10 @@
 {
-    "version": "version-26c90be22e0d4758",
+    "version": "version-2e6461290a3541f5",
     "VisualEngine": {
         "ViewMatrix": 304,
         "RenderView": 2880,
-        "Pointer": 123519064,
-        "FakeDataModel": 448
+        "Pointer": 125067288,
+        "FakeDataModel": 464
     },
     "DataModel": {
         "PlaceId": 408,
@@ -79,7 +79,7 @@
         "EvaluateStateMachine": 476,
         "RigType": 456,
         "TargetPoint": 356,
-        "HumanoidState": 2264,
+        "HumanoidState": 2200,
         "HumanoidStateID": 32
     },
     "Lighting": {
@@ -91,8 +91,8 @@
         "Atmosphere": 488,
         "EnvironmentSpecularScale": 296,
         "OutdoorAmbient": 264,
-        "ColorShift_Bottom": 228,
-        "ColorShift_Top": 240,
+        "ColorShift_Bottom": 240,
+        "ColorShift_Top": 228,
         "ShadowSoftness": 320
     },
     "LightingParameters": {
@@ -106,9 +106,9 @@
         "Primitives": 584
     },
     "Workspace": {
-        "World": 1024,
-        "ReadOnlyGravity": 2480,
-        "CurrentCamera": 1160
+        "World": 1032,
+        "ReadOnlyGravity": 2496,
+        "CurrentCamera": 1168
     },
     "VectorForce": {
         "ApplyAtCenterOfMass": 408,
@@ -133,27 +133,26 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "PhysicsSenderMaxBandwidthBps": 116063756,
-        "TaskSchedulerTargetFps": 120731656,
-        "DebugDisableTimeoutDisconnect": 121384536,
-        "EnableLoadModule": 121262312,
-        "PhysicsSenderMaxBandwidthBpsScaling": 116063748,
-        "DebugSkyGray": 121001912,
-        "PartyPlayerInactivityTimeoutInSeconds": 116062512,
-        "NextGenReplicatorEnabledWrite4": 123690808
+        "TaskSchedulerTargetFps": 122270692,
+        "PhysicsSenderMaxBandwidthBps": 117579264,
+        "DebugDisableTimeoutDisconnect": 122933624,
+        "EnableLoadModule": 122813960,
+        "PhysicsSenderMaxBandwidthBpsScaling": 117579272,
+        "DebugSkyGray": 122537728,
+        "PartyPlayerInactivityTimeoutInSeconds": 117578028,
+        "NextGenReplicatorEnabledWrite4": 123610608
     },
     "Camera": {
-        "MaxAxisFieldOfView": 364,
+        "DiagonalFieldOfView": 348,
+        "MaxAxisFieldOfView": 348,
         "FieldOfView": 352,
-        "Position": 284,
-        "CFrame": 248,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2145
+        "RequireBypass": 0
     },
     "Players": {
         "RespawnTime": 328
@@ -163,16 +162,16 @@
         "Scale": 356
     },
     "Tool": {
-        "CanBeDropped": 1216,
-        "Enabled": 1217,
-        "ManualActivationOnly": 1218,
-        "RequiresHandle": 1219,
-        "Tooltip": 1136,
-        "Grip": 1168,
-        "GripRight": 1168,
-        "GripUp": 1180,
-        "GripForward": 1192,
-        "GripPos": 1204
+        "CanBeDropped": 1224,
+        "Enabled": 1225,
+        "ManualActivationOnly": 1226,
+        "RequiresHandle": 1227,
+        "Tooltip": 1144,
+        "Grip": 1176,
+        "GripRight": 1176,
+        "GripUp": 1188,
+        "GripForward": 1200,
+        "GripPos": 1212
     },
     "ProximityPrompt": {
         "ActionText": 208,
@@ -197,8 +196,8 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 128045960,
-        "RealDataModel": 448
+        "Pointer": 129601784,
+        "RealDataModel": 464
     },
     "GuiObject": {
         "Visible": 1461,
@@ -223,7 +222,7 @@
         "SoundId": 224,
         "Volume": 324,
         "PlaybackSpeed": 304,
-        "Looped": 338,
+        "Looped": 337,
         "LoopRegion": 272,
         "PlaybackRegion": 280
     },
@@ -237,14 +236,14 @@
         "VectorVelocity": 604
     },
     "ModuleScript": {
-        "Bytecode": 336,
+        "Bytecode": 224,
         "Hash": 352
     },
     "LocalScript": {
         "Bytecode": 424
     },
     "Bytecode": {
-        "Size": 32,
+        "Size": 40,
         "Pointer": 16
     },
     "MeshData": {
@@ -254,7 +253,6 @@
         "VertexStart": 0
     },
     "MeshPart": {
-        "MeshId": 744,
-        "Texture": 792
+        "Texture": 808
     }
 }
