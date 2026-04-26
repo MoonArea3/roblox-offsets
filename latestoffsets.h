@@ -2,7 +2,7 @@
 #include <cstdint>
 
 // version-390ba09e7e944154
-// dumped by moon (discord.gg/skids <- pls join)
+// dumped by moon (discord.gg/skids <- plss join)
 
 namespace offsets {
     inline constexpr const char* roblox_version = "version-390ba09e7e944154";
@@ -291,7 +291,7 @@ namespace offsets {
         inline constexpr uintptr_t VertexEnd = 0x8;
         inline constexpr uintptr_t VertexStart = 0x0;
     }
-
+   
     namespace MeshPart {
         inline constexpr uintptr_t MeshId = 0x2e8;
         inline constexpr uintptr_t Texture = 0x318;
