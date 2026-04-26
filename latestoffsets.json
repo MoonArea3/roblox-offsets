@@ -1,9 +1,9 @@
 {
-    "version": "version-2e6461290a3541f5",
+    "version": "version-390ba09e7e944154",
     "VisualEngine": {
         "ViewMatrix": 304,
         "RenderView": 2880,
-        "Pointer": 125067288,
+        "Pointer": 125067872,
         "FakeDataModel": 464
     },
     "DataModel": {
@@ -79,7 +79,7 @@
         "EvaluateStateMachine": 476,
         "RigType": 456,
         "TargetPoint": 356,
-        "HumanoidState": 2200,
+        "HumanoidState": 2264,
         "HumanoidStateID": 32
     },
     "Lighting": {
@@ -91,8 +91,8 @@
         "Atmosphere": 488,
         "EnvironmentSpecularScale": 296,
         "OutdoorAmbient": 264,
-        "ColorShift_Bottom": 240,
-        "ColorShift_Top": 228,
+        "ColorShift_Bottom": 228,
+        "ColorShift_Top": 240,
         "ShadowSoftness": 320
     },
     "LightingParameters": {
@@ -133,26 +133,24 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "TaskSchedulerTargetFps": 122270692,
-        "PhysicsSenderMaxBandwidthBps": 117579264,
-        "DebugDisableTimeoutDisconnect": 122933624,
-        "EnableLoadModule": 122813960,
-        "PhysicsSenderMaxBandwidthBpsScaling": 117579272,
-        "DebugSkyGray": 122537728,
+        "TaskSchedulerTargetFps": 122271204,
+        "PhysicsSenderMaxBandwidthBps": 117579268,
+        "DebugDisableTimeoutDisconnect": 122934344,
+        "EnableLoadModule": 122814952,
+        "PhysicsSenderMaxBandwidthBpsScaling": 117579276,
+        "DebugSkyGray": 122538264,
         "PartyPlayerInactivityTimeoutInSeconds": 117578028,
-        "NextGenReplicatorEnabledWrite4": 123610608
+        "NextGenReplicatorEnabledWrite4": 123611192
     },
     "Camera": {
-        "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 348,
-        "FieldOfView": 352,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 0
+        "RequireBypass": 2145
     },
     "Players": {
         "RespawnTime": 328
@@ -196,7 +194,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 129601784,
+        "Pointer": 129602008,
         "RealDataModel": 464
     },
     "GuiObject": {
@@ -236,14 +234,14 @@
         "VectorVelocity": 604
     },
     "ModuleScript": {
-        "Bytecode": 224,
+        "Bytecode": 336,
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 424
+        "Bytecode": 176
     },
     "Bytecode": {
-        "Size": 40,
+        "Size": 32,
         "Pointer": 16
     },
     "MeshData": {
@@ -253,9 +251,7 @@
         "VertexStart": 0
     },
     "MeshPart": {
-        "Texture": 808
-    },
-    "Skid": {
-        "Region": 0
+        "MeshId": 744,
+        "Texture": 792
     }
 }
