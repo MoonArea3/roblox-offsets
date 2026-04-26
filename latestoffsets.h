@@ -1,16 +1,16 @@
 #pragma once
 #include <cstdint>
 
-// version-2e6461290a3541f5
+// version-390ba09e7e944154
 // dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-2e6461290a3541f5";
+    inline constexpr const char* roblox_version = "version-390ba09e7e944154";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x130;
         inline constexpr uintptr_t RenderView = 0xb40;
-        inline constexpr uintptr_t Pointer = 0x7746018;
+        inline constexpr uintptr_t Pointer = 0x7746260;
         inline constexpr uintptr_t FakeDataModel = 0x1d0;
     }
 
@@ -92,7 +92,7 @@ namespace offsets {
         inline constexpr uintptr_t EvaluateStateMachine = 0x1dc;
         inline constexpr uintptr_t RigType = 0x1c8;
         inline constexpr uintptr_t TargetPoint = 0x164;
-        inline constexpr uintptr_t HumanoidState = 0x898;
+        inline constexpr uintptr_t HumanoidState = 0x8d8;
         inline constexpr uintptr_t HumanoidStateID = 0x20;
     }
 
@@ -105,8 +105,8 @@ namespace offsets {
         inline constexpr uintptr_t Atmosphere = 0x1e8;
         inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
         inline constexpr uintptr_t OutdoorAmbient = 0x108;
-        inline constexpr uintptr_t ColorShift_Bottom = 0xf0;
-        inline constexpr uintptr_t ColorShift_Top = 0xe4;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xe4;
+        inline constexpr uintptr_t ColorShift_Top = 0xf0;
         inline constexpr uintptr_t ShadowSoftness = 0x140;
     }
 
@@ -154,20 +154,18 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x749b3e4;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x7021e00;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x753d178;
-        inline constexpr uintptr_t EnableLoadModule = 0x751fe08;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x7021e08;
-        inline constexpr uintptr_t DebugSkyGray = 0x74dc700;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x749b5e4;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x7021e04;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x753d448;
+        inline constexpr uintptr_t EnableLoadModule = 0x75201e8;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x7021e0c;
+        inline constexpr uintptr_t DebugSkyGray = 0x74dc918;
         inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x702192c;
-        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x75e25f0;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x75e2838;
     }
 
     namespace Camera {
-        inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x15c;
-        inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t ViewportInt16 = 0x2ac;
         inline constexpr uintptr_t ViewportSize = 0x2e8;
         inline constexpr uintptr_t CameraSubject = 0xe8;
@@ -175,7 +173,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x0;
+        inline constexpr uintptr_t RequireBypass = 0x861;
     }
 
     namespace Players {
@@ -227,7 +225,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7b990f8;
+        inline constexpr uintptr_t Pointer = 0x7b991d8;
         inline constexpr uintptr_t RealDataModel = 0x1d0;
     }
 
@@ -274,16 +272,16 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0xe0;
+        inline constexpr uintptr_t Bytecode = 0x150;
         inline constexpr uintptr_t Hash = 0x160;
     }
 
     namespace LocalScript {
-        inline constexpr uintptr_t Bytecode = 0x1a8;
+        inline constexpr uintptr_t Bytecode = 0xb0;
     }
 
     namespace Bytecode {
-        inline constexpr uintptr_t Size = 0x28;
+        inline constexpr uintptr_t Size = 0x20;
         inline constexpr uintptr_t Pointer = 0x10;
     }
 
@@ -295,6 +293,7 @@ namespace offsets {
     }
 
     namespace MeshPart {
-        inline constexpr uintptr_t Texture = 0x328;
+        inline constexpr uintptr_t MeshId = 0x2e8;
+        inline constexpr uintptr_t Texture = 0x318;
     }
 }
