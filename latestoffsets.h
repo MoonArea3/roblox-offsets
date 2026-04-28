@@ -293,7 +293,7 @@ namespace offsets {
     }
    
     namespace MeshPart {
-        inline constexpr uintptr_t MeshId = 0x2e8;
+        inline constexpr uintptr_t MeshId = 0x2f8;
         inline constexpr uintptr_t Texture = 0x318;
     }
 }
