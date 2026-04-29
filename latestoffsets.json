@@ -1,9 +1,9 @@
 {
-    "version": "version-390ba09e7e944154",
+    "version": "version-acc4b74f79e743b9",
     "VisualEngine": {
         "ViewMatrix": 304,
-        "RenderView": 2880,
-        "Pointer": 125067872,
+        "RenderView": 2928,
+        "Pointer": 125593200,
         "FakeDataModel": 464
     },
     "DataModel": {
@@ -57,12 +57,12 @@
     },
     "Humanoid": {
         "CameraOffset": 320,
-        "UseJumpPower": 483,
-        "AutoJumpEnabled": 472,
+        "UseJumpPower": 492,
+        "AutoJumpEnabled": 480,
         "Health": 404,
         "MaxHealth": 436,
-        "WalkSpeed": 468,
-        "WalkSpeedCheck": 956,
+        "WalkSpeed": 476,
+        "WalkSpeedCheck": 964,
         "JumpPower": 432,
         "JumpHeight": 428,
         "HipHeight": 416,
@@ -70,16 +70,16 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
-        "WalkTimer": 1040,
+        "WalkTimer": 1048,
         "WalkToPart": 304,
-        "AutoRotate": 473,
-        "Sit": 481,
-        "BreakJointsOnDeath": 475,
-        "RequiresNeck": 480,
-        "EvaluateStateMachine": 476,
-        "RigType": 456,
+        "AutoRotate": 481,
+        "Sit": 490,
+        "BreakJointsOnDeath": 483,
+        "RequiresNeck": 489,
+        "EvaluateStateMachine": 484,
+        "RigType": 460,
         "TargetPoint": 356,
-        "HumanoidState": 2264,
+        "HumanoidState": 2200,
         "HumanoidStateID": 32
     },
     "Lighting": {
@@ -91,8 +91,8 @@
         "Atmosphere": 488,
         "EnvironmentSpecularScale": 296,
         "OutdoorAmbient": 264,
-        "ColorShift_Bottom": 228,
-        "ColorShift_Top": 240,
+        "ColorShift_Bottom": 240,
+        "ColorShift_Top": 228,
         "ShadowSoftness": 320
     },
     "LightingParameters": {
@@ -100,24 +100,24 @@
         "LightColor": 348
     },
     "World": {
-        "FallenPartsDestroyHeight": 464,
-        "Gravity": 472,
-        "WorldStepPerSec": 1640,
-        "Primitives": 584
+        "FallenPartsDestroyHeight": 520,
+        "Gravity": 528,
+        "WorldStepPerSec": 1720,
+        "Primitives": 640
     },
     "Workspace": {
         "World": 1032,
-        "ReadOnlyGravity": 2496,
+        "ReadOnlyGravity": 2488,
         "CurrentCamera": 1168
     },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 408,
-        "Force": 392,
-        "RelativeTo": 404
+        "ApplyAtCenterOfMass": 416,
+        "Force": 400,
+        "RelativeTo": 412
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 747,
+        "RunLocally": 412,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -133,24 +133,28 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "TaskSchedulerTargetFps": 122271204,
-        "PhysicsSenderMaxBandwidthBps": 117579268,
-        "DebugDisableTimeoutDisconnect": 122934344,
-        "EnableLoadModule": 122814952,
-        "PhysicsSenderMaxBandwidthBpsScaling": 117579276,
-        "DebugSkyGray": 122538264,
-        "PartyPlayerInactivityTimeoutInSeconds": 117578028,
-        "NextGenReplicatorEnabledWrite4": 123611192
+        "TaskSchedulerTargetFps": 122791700,
+        "PhysicsSenderMaxBandwidthBps": 118083120,
+        "DebugDisableTimeoutDisconnect": 123457864,
+        "EnableLoadModule": 123341464,
+        "PhysicsSenderMaxBandwidthBpsScaling": 118083124,
+        "DebugSkyGray": 123059112,
+        "PartyPlayerInactivityTimeoutInSeconds": 118081852,
+        "NextGenReplicatorEnabledWrite4": 124136040
     },
     "Camera": {
-        "MaxAxisFieldOfView": 348,
+        "DiagonalFieldOfView": 348,
+        "MaxAxisFieldOfView": 340,
+        "FieldOfView": 352,
+        "Position": 284,
+        "CFrame": 248,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2084
+        "RequireBypass": 0
     },
     "Players": {
         "RespawnTime": 328
@@ -172,13 +176,13 @@
         "GripPos": 1212
     },
     "ProximityPrompt": {
-        "ActionText": 208,
-        "ObjectText": 240,
-        "HoldDuration": 320,
-        "MaxActivationDistance": 328,
-        "KeyboardKeyCode": 324,
-        "Enabled": 342,
-        "RequiresLineOfSight": 343
+        "ActionText": 200,
+        "ObjectText": 232,
+        "HoldDuration": 312,
+        "MaxActivationDistance": 320,
+        "KeyboardKeyCode": 316,
+        "Enabled": 334,
+        "RequiresLineOfSight": 335
     },
     "ClickDetector": {
         "MaxActivationDistance": 256
@@ -194,7 +198,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 129602008,
+        "Pointer": 130130248,
         "RealDataModel": 464
     },
     "GuiObject": {
@@ -230,15 +234,15 @@
         "P": 696
     },
     "LinearVelocity": {
-        "MaxForce": 424,
-        "VectorVelocity": 604
+        "MaxForce": 432,
+        "VectorVelocity": 612
     },
     "ModuleScript": {
         "Bytecode": 336,
         "Hash": 352
     },
     "LocalScript": {
-        "Bytecode": 176
+        "Bytecode": 424
     },
     "Bytecode": {
         "Size": 32,
@@ -251,7 +255,7 @@
         "VertexStart": 0
     },
     "MeshPart": {
-        "MeshId": 744,
-        "Texture": 792
+        "MeshId": 760,
+        "Texture": 808
     }
 }
