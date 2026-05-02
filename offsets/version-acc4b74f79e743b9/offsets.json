@@ -154,7 +154,7 @@
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 0
+        "RequireBypass": 2344,
     },
     "Players": {
         "RespawnTime": 328
