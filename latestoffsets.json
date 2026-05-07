@@ -1,18 +1,18 @@
 {
-    "version": "version-acc4b74f79e743b9",
+    "version": "version-bf6344c9c23446bf",
     "VisualEngine": {
-        "ViewMatrix": 304,
-        "RenderView": 2928,
-        "Pointer": 125593200,
+        "ViewMatrix": 320,
+        "RenderView": 2944,
+        "Pointer": 129473032,
         "FakeDataModel": 464
     },
     "DataModel": {
-        "PlaceId": 408,
-        "GameId": 400,
-        "GameLoaded": 1528,
-        "CreatorId": 392,
+        "PlaceId": 416,
+        "GameId": 408,
+        "GameLoaded": 1568,
+        "CreatorId": 400,
         "Workspace": 376,
-        "ServerIP": 1504,
+        "ServerIP": 1544,
         "ScriptContext": 1008,
         "JobId": 312
     },
@@ -25,10 +25,9 @@
         "ClassName": 8
     },
     "Player": {
-        "LocalPlayer": 304,
+        "LocalPlayer": 312,
         "ModelInstance": 920,
         "UserId": 712,
-        "DisplayName": 304,
         "TeamColor": 868,
         "Team": 672,
         "CameraMaxZoomDist": 800,
@@ -83,31 +82,29 @@
         "HumanoidStateID": 32
     },
     "Lighting": {
-        "Sky": 472,
-        "ClockTime": 440,
-        "Brightness": 288,
-        "Ambient": 216,
-        "EnvironmentDiffuseScale": 292,
-        "Atmosphere": 488,
-        "EnvironmentSpecularScale": 296,
-        "OutdoorAmbient": 264,
-        "ColorShift_Bottom": 240,
-        "ColorShift_Top": 228,
-        "ShadowSoftness": 320
+        "Sky": 480,
+        "ClockTime": 448,
+        "Ambient": 224,
+        "EnvironmentDiffuseScale": 300,
+        "Atmosphere": 496,
+        "EnvironmentSpecularScale": 304,
+        "OutdoorAmbient": 272,
+        "ColorShift_Bottom": 248,
+        "ColorShift_Top": 236
     },
     "LightingParameters": {
-        "GeographicLatitude": 400,
-        "LightColor": 348
+        "GeographicLatitude": 408,
+        "LightColor": 356
     },
     "World": {
         "FallenPartsDestroyHeight": 520,
         "Gravity": 528,
-        "WorldStepPerSec": 1720,
+        "WorldStepPerSec": 1656,
         "Primitives": 640
     },
     "Workspace": {
         "World": 1032,
-        "ReadOnlyGravity": 2488,
+        "ReadOnlyGravity": 2496,
         "CurrentCamera": 1168
     },
     "VectorForce": {
@@ -117,7 +114,7 @@
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 412,
+        "RunLocally": 747,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -133,18 +130,18 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "TaskSchedulerTargetFps": 122791700,
-        "PhysicsSenderMaxBandwidthBps": 118083120,
-        "DebugDisableTimeoutDisconnect": 123457864,
-        "EnableLoadModule": 123341464,
-        "PhysicsSenderMaxBandwidthBpsScaling": 118083124,
-        "DebugSkyGray": 123059112,
-        "PartyPlayerInactivityTimeoutInSeconds": 118081852,
-        "NextGenReplicatorEnabledWrite4": 124136040
+        "TaskSchedulerTargetFps": 129641952,
+        "DebugDisableTimeoutDisconnect": 124238648,
+        "PhysicsSenderMaxBandwidthBps": 117847044,
+        "EnableLoadModule": 123461296,
+        "PhysicsSenderMaxBandwidthBpsScaling": 117847048,
+        "DebugSkyGray": 122650344,
+        "PartyPlayerInactivityTimeoutInSeconds": 117835220,
+        "NextGenReplicatorEnabledWrite4": 127980584
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
-        "MaxAxisFieldOfView": 340,
+        "MaxAxisFieldOfView": 348,
         "FieldOfView": 352,
         "Position": 284,
         "CFrame": 248,
@@ -157,7 +154,7 @@
         "RequireBypass": 2344
     },
     "Players": {
-        "RespawnTime": 328
+        "RespawnTime": 336
     },
     "Model": {
         "PrimaryPart": 632,
@@ -198,7 +195,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 130130248,
+        "Pointer": 122276824,
         "RealDataModel": 464
     },
     "GuiObject": {
@@ -238,14 +235,14 @@
         "VectorVelocity": 612
     },
     "ModuleScript": {
-        "Bytecode": 336,
+        "Bytecode": 320,
         "Hash": 352
     },
     "LocalScript": {
         "Bytecode": 424
     },
     "Bytecode": {
-        "Size": 32,
+        "Size": 40,
         "Pointer": 16
     },
     "MeshData": {
