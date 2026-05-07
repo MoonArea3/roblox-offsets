@@ -1,26 +1,26 @@
 #pragma once
 #include <cstdint>
 
-// version-acc4b74f79e743b9
+// version-bf6344c9c23446bf
 // dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-acc4b74f79e743b9";
+    inline constexpr const char* roblox_version = "version-bf6344c9c23446bf";
 
     namespace VisualEngine {
-        inline constexpr uintptr_t ViewMatrix = 0x130;
-        inline constexpr uintptr_t RenderView = 0xb70;
-        inline constexpr uintptr_t Pointer = 0x77c6670;
+        inline constexpr uintptr_t ViewMatrix = 0x140;
+        inline constexpr uintptr_t RenderView = 0xb80;
+        inline constexpr uintptr_t Pointer = 0x7b79a08;
         inline constexpr uintptr_t FakeDataModel = 0x1d0;
     }
 
     namespace DataModel {
-        inline constexpr uintptr_t PlaceId = 0x198;
-        inline constexpr uintptr_t GameId = 0x190;
-        inline constexpr uintptr_t GameLoaded = 0x5f8;
-        inline constexpr uintptr_t CreatorId = 0x188;
+        inline constexpr uintptr_t PlaceId = 0x1a0;
+        inline constexpr uintptr_t GameId = 0x198;
+        inline constexpr uintptr_t GameLoaded = 0x620;
+        inline constexpr uintptr_t CreatorId = 0x190;
         inline constexpr uintptr_t Workspace = 0x178;
-        inline constexpr uintptr_t ServerIP = 0x5e0;
+        inline constexpr uintptr_t ServerIP = 0x608;
         inline constexpr uintptr_t ScriptContext = 0x3f0;
         inline constexpr uintptr_t JobId = 0x138;
     }
@@ -35,10 +35,9 @@ namespace offsets {
     }
 
     namespace Player {
-        inline constexpr uintptr_t LocalPlayer = 0x130;
+        inline constexpr uintptr_t LocalPlayer = 0x138;
         inline constexpr uintptr_t ModelInstance = 0x398;
         inline constexpr uintptr_t UserId = 0x2c8;
-        inline constexpr uintptr_t DisplayName = 0x130;
         inline constexpr uintptr_t TeamColor = 0x364;
         inline constexpr uintptr_t Team = 0x2a0;
         inline constexpr uintptr_t CameraMaxZoomDist = 0x320;
@@ -97,34 +96,32 @@ namespace offsets {
     }
 
     namespace Lighting {
-        inline constexpr uintptr_t Sky = 0x1d8;
-        inline constexpr uintptr_t ClockTime = 0x1b8;
-        inline constexpr uintptr_t Brightness = 0x120;
-        inline constexpr uintptr_t Ambient = 0xd8;
-        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x124;
-        inline constexpr uintptr_t Atmosphere = 0x1e8;
-        inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
-        inline constexpr uintptr_t OutdoorAmbient = 0x108;
-        inline constexpr uintptr_t ColorShift_Bottom = 0xf0;
-        inline constexpr uintptr_t ColorShift_Top = 0xe4;
-        inline constexpr uintptr_t ShadowSoftness = 0x140;
+        inline constexpr uintptr_t Sky = 0x1e0;
+        inline constexpr uintptr_t ClockTime = 0x1c0;
+        inline constexpr uintptr_t Ambient = 0xe0;
+        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x12c;
+        inline constexpr uintptr_t Atmosphere = 0x1f0;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x130;
+        inline constexpr uintptr_t OutdoorAmbient = 0x110;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xf8;
+        inline constexpr uintptr_t ColorShift_Top = 0xec;
     }
 
     namespace LightingParameters {
-        inline constexpr uintptr_t GeographicLatitude = 0x190;
-        inline constexpr uintptr_t LightColor = 0x15c;
+        inline constexpr uintptr_t GeographicLatitude = 0x198;
+        inline constexpr uintptr_t LightColor = 0x164;
     }
 
     namespace World {
         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x208;
         inline constexpr uintptr_t Gravity = 0x210;
-        inline constexpr uintptr_t WorldStepPerSec = 0x6b8;
+        inline constexpr uintptr_t WorldStepPerSec = 0x678;
         inline constexpr uintptr_t Primitives = 0x280;
     }
 
     namespace Workspace {
         inline constexpr uintptr_t World = 0x408;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9b8;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9c0;
         inline constexpr uintptr_t CurrentCamera = 0x490;
     }
 
@@ -136,7 +133,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x19c;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -154,19 +151,19 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x751a714;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x709ce30;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x75bd148;
-        inline constexpr uintptr_t EnableLoadModule = 0x75a0a98;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x709ce34;
-        inline constexpr uintptr_t DebugSkyGray = 0x755bba8;
-        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x709c93c;
-        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7662a68;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7ba2de0;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x767bb38;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x7063404;
+        inline constexpr uintptr_t EnableLoadModule = 0x75bdeb0;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x7063408;
+        inline constexpr uintptr_t DebugSkyGray = 0x74f7ee8;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x70605d4;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7a0d428;
     }
 
     namespace Camera {
         inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
-        inline constexpr uintptr_t MaxAxisFieldOfView = 0x154;
+        inline constexpr uintptr_t MaxAxisFieldOfView = 0x15c;
         inline constexpr uintptr_t FieldOfView = 0x160;
         inline constexpr uintptr_t Position = 0x11c;
         inline constexpr uintptr_t CFrame = 0xf8;
@@ -177,11 +174,11 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x928;
+        inline constexpr uintptr_t RequireBypass = 0x928; // not sure, will update soo
     }
 
     namespace Players {
-        inline constexpr uintptr_t RespawnTime = 0x148;
+        inline constexpr uintptr_t RespawnTime = 0x150;
     }
 
     namespace Model {
@@ -229,7 +226,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7c1a148;
+        inline constexpr uintptr_t Pointer = 0x749cbd8;
         inline constexpr uintptr_t RealDataModel = 0x1d0;
     }
 
@@ -276,7 +273,7 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0x150;
+        inline constexpr uintptr_t Bytecode = 0x140;
         inline constexpr uintptr_t Hash = 0x160;
     }
 
@@ -285,7 +282,7 @@ namespace offsets {
     }
 
     namespace Bytecode {
-        inline constexpr uintptr_t Size = 0x20;
+        inline constexpr uintptr_t Size = 0x28;
         inline constexpr uintptr_t Pointer = 0x10;
     }
 
