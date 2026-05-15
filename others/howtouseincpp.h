@@ -7,6 +7,7 @@
 
 #pragma comment(lib, "winhttp.lib")
 // call offsets::fetch::load() and ur all good
+// moon auto updater
 namespace offsets {
     namespace Attribute {
         inline uintptr_t InstanceAttributePointer1 = 0x48;
