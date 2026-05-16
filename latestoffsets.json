@@ -1,18 +1,18 @@
 {
-    "version": "version-bf6344c9c23446bf",
+    "version": "version-ec412128eba3476e",
     "VisualEngine": {
         "ViewMatrix": 320,
         "RenderView": 2944,
-        "Pointer": 129473032,
+        "Pointer": 129855992,
         "FakeDataModel": 464
     },
     "DataModel": {
         "PlaceId": 416,
         "GameId": 408,
-        "GameLoaded": 1568,
+        "GameLoaded": 1592,
         "CreatorId": 400,
         "Workspace": 376,
-        "ServerIP": 1544,
+        "ServerIP": 1568,
         "ScriptContext": 1008,
         "JobId": 312
     },
@@ -26,12 +26,13 @@
     },
     "Player": {
         "LocalPlayer": 312,
-        "ModelInstance": 920,
-        "UserId": 712,
-        "TeamColor": 868,
-        "Team": 672,
-        "CameraMaxZoomDist": 800,
-        "CameraMinZoomDist": 804
+        "ModelInstance": 936,
+        "UserId": 728,
+        "DisplayName": 304,
+        "TeamColor": 812,
+        "Team": 688,
+        "CameraMaxZoomDist": 816,
+        "CameraMinZoomDist": 820
     },
     "BasePart": {
         "Primitive": 328,
@@ -43,16 +44,16 @@
         "Massless": 247
     },
     "Primitive": {
-        "Position": 228,
-        "CFrame": 192,
-        "Rotation": 192,
-        "Size": 432,
-        "AssemblyLinearVelocity": 240,
-        "AssemblyAngularVelocity": 252,
-        "Material": 558,
+        "Position": 236,
+        "CFrame": 200,
+        "Rotation": 200,
+        "Size": 440,
+        "AssemblyLinearVelocity": 248,
+        "AssemblyAngularVelocity": 260,
+        "Material": 566,
         "Shape": 433,
-        "PrimitiveFlags": 430,
-        "Owner": 504
+        "PrimitiveFlags": 438,
+        "Owner": 512
     },
     "Humanoid": {
         "CameraOffset": 320,
@@ -69,7 +70,7 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
-        "WalkTimer": 1048,
+        "WalkTimer": 1032,
         "WalkToPart": 304,
         "AutoRotate": 481,
         "Sit": 490,
@@ -93,8 +94,7 @@
         "ColorShift_Top": 236
     },
     "LightingParameters": {
-        "GeographicLatitude": 408,
-        "LightColor": 356
+        "GeographicLatitude": 408
     },
     "World": {
         "FallenPartsDestroyHeight": 520,
@@ -104,8 +104,8 @@
     },
     "Workspace": {
         "World": 1032,
-        "ReadOnlyGravity": 2496,
-        "CurrentCamera": 1168
+        "ReadOnlyGravity": 2528,
+        "CurrentCamera": 1200
     },
     "VectorForce": {
         "ApplyAtCenterOfMass": 416,
@@ -114,7 +114,7 @@
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 747,
+        "RunLocally": 502,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -130,14 +130,14 @@
         "GrassLength": 504
     },
     "FFlag": {
-        "TaskSchedulerTargetFps": 129641952,
-        "DebugDisableTimeoutDisconnect": 124238648,
-        "PhysicsSenderMaxBandwidthBps": 117847044,
-        "EnableLoadModule": 123461296,
-        "PhysicsSenderMaxBandwidthBpsScaling": 117847048,
-        "DebugSkyGray": 122650344,
-        "PartyPlayerInactivityTimeoutInSeconds": 117835220,
-        "NextGenReplicatorEnabledWrite4": 127980584
+        "TaskSchedulerTargetFps": 130024912,
+        "DebugDisableTimeoutDisconnect": 125182856,
+        "PhysicsSenderMaxBandwidthBps": 118199308,
+        "EnableLoadModule": 123840872,
+        "PhysicsSenderMaxBandwidthBpsScaling": 118199312,
+        "DebugSkyGray": 123033080,
+        "PartyPlayerInactivityTimeoutInSeconds": 118187540,
+        "NextGenReplicatorEnabledWrite4": 128363736
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
@@ -151,7 +151,7 @@
         "CameraType": 344
     },
     "Script": {
-        "RequireBypass": 2344
+        "RequireBypass": 0
     },
     "Players": {
         "RespawnTime": 336
@@ -195,7 +195,7 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 122276824,
+        "Pointer": 122652504,
         "RealDataModel": 464
     },
     "GuiObject": {
@@ -206,10 +206,10 @@
         "BorderSizePixel": 1396
     },
     "TextLabel": {
-        "Text": 2656,
-        "TextColor3": 3696,
-        "TextSize": 3740,
-        "TextTransparency": 3748
+        "Text": 2912,
+        "TextColor3": 3672,
+        "TextSize": 3716,
+        "TextTransparency": 3724
     },
     "Attachment": {
         "WorldCFrame": 184,
@@ -219,9 +219,9 @@
     },
     "Sound": {
         "SoundId": 224,
-        "Volume": 324,
-        "PlaybackSpeed": 304,
-        "Looped": 337,
+        "Volume": 328,
+        "PlaybackSpeed": 308,
+        "Looped": 341,
         "LoopRegion": 272,
         "PlaybackRegion": 280
     },
