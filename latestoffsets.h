@@ -60,7 +60,7 @@ namespace offsets {
         inline constexpr uintptr_t CFrame = 0xc8;
         inline constexpr uintptr_t Rotation = 0xc8;
         inline constexpr uintptr_t Size = 0x1b8;
-        inline constexpr uintptr_t AssemblyLinearVelocity = 0xf8;
+        inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
         inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
         inline constexpr uintptr_t Material = 0x236;
         inline constexpr uintptr_t Shape = 0x1b1;
