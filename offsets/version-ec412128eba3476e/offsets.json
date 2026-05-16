@@ -13,7 +13,7 @@
         "CreatorId": 400,
         "Workspace": 376,
         "ServerIP": 1568,
-        "ScriptContext": 1008,
+        "ScriptContext": 1072,
         "JobId": 312
     },
     "Instance": {
@@ -29,7 +29,7 @@
         "ModelInstance": 936,
         "UserId": 728,
         "DisplayName": 304,
-        "TeamColor": 812,
+        "TeamColor": 884,
         "Team": 688,
         "CameraMaxZoomDist": 816,
         "CameraMinZoomDist": 820
@@ -48,7 +48,7 @@
         "CFrame": 200,
         "Rotation": 200,
         "Size": 440,
-        "AssemblyLinearVelocity": 240,
+        "AssemblyLinearVelocity": 248,
         "AssemblyAngularVelocity": 260,
         "Material": 566,
         "Shape": 433,
@@ -70,6 +70,7 @@
         "MaxSlopeAngle": 440,
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
+        "FloorMaterial": 400,
         "WalkTimer": 1032,
         "WalkToPart": 304,
         "AutoRotate": 481,
@@ -79,7 +80,7 @@
         "EvaluateStateMachine": 484,
         "RigType": 460,
         "TargetPoint": 356,
-        "HumanoidState": 2200,
+        "HumanoidState": 2216,
         "HumanoidStateID": 32
     },
     "Lighting": {
@@ -114,7 +115,7 @@
     },
     "DragDetector": {
         "Enabled": 745,
-        "RunLocally": 502,
+        "RunLocally": 747,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
