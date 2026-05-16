@@ -21,7 +21,7 @@ namespace offsets {
         inline constexpr uintptr_t CreatorId = 0x190;
         inline constexpr uintptr_t Workspace = 0x178;
         inline constexpr uintptr_t ServerIP = 0x620;
-        inline constexpr uintptr_t ScriptContext = 0x3f0;
+        inline constexpr uintptr_t ScriptContext = 0x430;
         inline constexpr uintptr_t JobId = 0x138;
     }
 
@@ -39,7 +39,7 @@ namespace offsets {
         inline constexpr uintptr_t ModelInstance = 0x3a8;
         inline constexpr uintptr_t UserId = 0x2d8;
         inline constexpr uintptr_t DisplayName = 0x130;
-        inline constexpr uintptr_t TeamColor = 0x32c;
+        inline constexpr uintptr_t TeamColor = 0x374;
         inline constexpr uintptr_t Team = 0x2b0;
         inline constexpr uintptr_t CameraMaxZoomDist = 0x330;
         inline constexpr uintptr_t CameraMinZoomDist = 0x334;
@@ -60,7 +60,7 @@ namespace offsets {
         inline constexpr uintptr_t CFrame = 0xc8;
         inline constexpr uintptr_t Rotation = 0xc8;
         inline constexpr uintptr_t Size = 0x1b8;
-        inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
+        inline constexpr uintptr_t AssemblyLinearVelocity = 0xf8;
         inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
         inline constexpr uintptr_t Material = 0x236;
         inline constexpr uintptr_t Shape = 0x1b1;
@@ -83,6 +83,7 @@ namespace offsets {
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
+        inline constexpr uintptr_t FloorMaterial = 0x190;
         inline constexpr uintptr_t WalkTimer = 0x408;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1e1;
@@ -92,7 +93,7 @@ namespace offsets {
         inline constexpr uintptr_t EvaluateStateMachine = 0x1e4;
         inline constexpr uintptr_t RigType = 0x1cc;
         inline constexpr uintptr_t TargetPoint = 0x164;
-        inline constexpr uintptr_t HumanoidState = 0x898;
+        inline constexpr uintptr_t HumanoidState = 0x8a8;
         inline constexpr uintptr_t HumanoidStateID = 0x20;
     }
 
@@ -133,7 +134,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x1f6;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -273,7 +274,7 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0x150;
+        inline constexpr uintptr_t Bytecode = 0x140;
         inline constexpr uintptr_t Hash = 0x160;
     }
 
