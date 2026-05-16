@@ -1,26 +1,26 @@
 #pragma once
 #include <cstdint>
 
-// version-bf6344c9c23446bf
+// version-ec412128eba3476e
 // dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-bf6344c9c23446bf";
+    inline constexpr const char* roblox_version = "version-ec412128eba3476e";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x140;
         inline constexpr uintptr_t RenderView = 0xb80;
-        inline constexpr uintptr_t Pointer = 0x7b79a08;
+        inline constexpr uintptr_t Pointer = 0x7bd71f8;
         inline constexpr uintptr_t FakeDataModel = 0x1d0;
     }
 
     namespace DataModel {
         inline constexpr uintptr_t PlaceId = 0x1a0;
         inline constexpr uintptr_t GameId = 0x198;
-        inline constexpr uintptr_t GameLoaded = 0x620;
+        inline constexpr uintptr_t GameLoaded = 0x638;
         inline constexpr uintptr_t CreatorId = 0x190;
         inline constexpr uintptr_t Workspace = 0x178;
-        inline constexpr uintptr_t ServerIP = 0x608;
+        inline constexpr uintptr_t ServerIP = 0x620;
         inline constexpr uintptr_t ScriptContext = 0x3f0;
         inline constexpr uintptr_t JobId = 0x138;
     }
@@ -36,12 +36,13 @@ namespace offsets {
 
     namespace Player {
         inline constexpr uintptr_t LocalPlayer = 0x138;
-        inline constexpr uintptr_t ModelInstance = 0x398;
-        inline constexpr uintptr_t UserId = 0x2c8;
-        inline constexpr uintptr_t TeamColor = 0x364;
-        inline constexpr uintptr_t Team = 0x2a0;
-        inline constexpr uintptr_t CameraMaxZoomDist = 0x320;
-        inline constexpr uintptr_t CameraMinZoomDist = 0x324;
+        inline constexpr uintptr_t ModelInstance = 0x3a8;
+        inline constexpr uintptr_t UserId = 0x2d8;
+        inline constexpr uintptr_t DisplayName = 0x130;
+        inline constexpr uintptr_t TeamColor = 0x32c;
+        inline constexpr uintptr_t Team = 0x2b0;
+        inline constexpr uintptr_t CameraMaxZoomDist = 0x330;
+        inline constexpr uintptr_t CameraMinZoomDist = 0x334;
     }
 
     namespace BasePart {
@@ -55,16 +56,16 @@ namespace offsets {
     }
 
     namespace Primitive {
-        inline constexpr uintptr_t Position = 0xe4;
-        inline constexpr uintptr_t CFrame = 0xc0;
-        inline constexpr uintptr_t Rotation = 0xc0;
-        inline constexpr uintptr_t Size = 0x1b0;
-        inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
-        inline constexpr uintptr_t AssemblyAngularVelocity = 0xfc;
-        inline constexpr uintptr_t Material = 0x22e;
+        inline constexpr uintptr_t Position = 0xec;
+        inline constexpr uintptr_t CFrame = 0xc8;
+        inline constexpr uintptr_t Rotation = 0xc8;
+        inline constexpr uintptr_t Size = 0x1b8;
+        inline constexpr uintptr_t AssemblyLinearVelocity = 0xf8;
+        inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
+        inline constexpr uintptr_t Material = 0x236;
         inline constexpr uintptr_t Shape = 0x1b1;
-        inline constexpr uintptr_t PrimitiveFlags = 0x1ae;
-        inline constexpr uintptr_t Owner = 0x1f8;
+        inline constexpr uintptr_t PrimitiveFlags = 0x1b6;
+        inline constexpr uintptr_t Owner = 0x200;
     }
 
     namespace Humanoid {
@@ -82,7 +83,7 @@ namespace offsets {
         inline constexpr uintptr_t MaxSlopeAngle = 0x1b8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
-        inline constexpr uintptr_t WalkTimer = 0x418;
+        inline constexpr uintptr_t WalkTimer = 0x408;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1e1;
         inline constexpr uintptr_t Sit = 0x1ea;
@@ -109,7 +110,6 @@ namespace offsets {
 
     namespace LightingParameters {
         inline constexpr uintptr_t GeographicLatitude = 0x198;
-        inline constexpr uintptr_t LightColor = 0x164;
     }
 
     namespace World {
@@ -121,8 +121,8 @@ namespace offsets {
 
     namespace Workspace {
         inline constexpr uintptr_t World = 0x408;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9c0;
-        inline constexpr uintptr_t CurrentCamera = 0x490;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9e0;
+        inline constexpr uintptr_t CurrentCamera = 0x4b0;
     }
 
     namespace VectorForce {
@@ -133,7 +133,7 @@ namespace offsets {
 
     namespace DragDetector {
         inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x2eb;
+        inline constexpr uintptr_t RunLocally = 0x1f6;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -151,14 +151,14 @@ namespace offsets {
     }
 
     namespace FFlag {
-        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7ba2de0;
-        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x767bb38;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x7063404;
-        inline constexpr uintptr_t EnableLoadModule = 0x75bdeb0;
-        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x7063408;
-        inline constexpr uintptr_t DebugSkyGray = 0x74f7ee8;
-        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x70605d4;
-        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7a0d428;
+        inline constexpr uintptr_t TaskSchedulerTargetFps = 0x7c005d0;
+        inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x7762388;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBps = 0x70b940c;
+        inline constexpr uintptr_t EnableLoadModule = 0x761a968;
+        inline constexpr uintptr_t PhysicsSenderMaxBandwidthBpsScaling = 0x70b9410;
+        inline constexpr uintptr_t DebugSkyGray = 0x75555f8;
+        inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x70b6614;
+        inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x7a6acd8;
     }
 
     namespace Camera {
@@ -174,7 +174,7 @@ namespace offsets {
     }
 
     namespace Script {
-        inline constexpr uintptr_t RequireBypass = 0x928; // not sure, will update soo
+        inline constexpr uintptr_t RequireBypass = 0x0;
     }
 
     namespace Players {
@@ -226,7 +226,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x749cbd8;
+        inline constexpr uintptr_t Pointer = 0x74f8758;
         inline constexpr uintptr_t RealDataModel = 0x1d0;
     }
 
@@ -239,10 +239,10 @@ namespace offsets {
     }
 
     namespace TextLabel {
-        inline constexpr uintptr_t Text = 0xa60;
-        inline constexpr uintptr_t TextColor3 = 0xe70;
-        inline constexpr uintptr_t TextSize = 0xe9c;
-        inline constexpr uintptr_t TextTransparency = 0xea4;
+        inline constexpr uintptr_t Text = 0xb60;
+        inline constexpr uintptr_t TextColor3 = 0xe58;
+        inline constexpr uintptr_t TextSize = 0xe84;
+        inline constexpr uintptr_t TextTransparency = 0xe8c;
     }
 
     namespace Attachment {
@@ -254,9 +254,9 @@ namespace offsets {
 
     namespace Sound {
         inline constexpr uintptr_t SoundId = 0xe0;
-        inline constexpr uintptr_t Volume = 0x144;
-        inline constexpr uintptr_t PlaybackSpeed = 0x130;
-        inline constexpr uintptr_t Looped = 0x151;
+        inline constexpr uintptr_t Volume = 0x148;
+        inline constexpr uintptr_t PlaybackSpeed = 0x134;
+        inline constexpr uintptr_t Looped = 0x155;
         inline constexpr uintptr_t LoopRegion = 0x110;
         inline constexpr uintptr_t PlaybackRegion = 0x118;
     }
