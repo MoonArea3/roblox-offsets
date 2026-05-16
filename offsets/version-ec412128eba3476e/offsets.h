@@ -273,7 +273,7 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0x140;
+        inline constexpr uintptr_t Bytecode = 0x150;
         inline constexpr uintptr_t Hash = 0x160;
     }
 
